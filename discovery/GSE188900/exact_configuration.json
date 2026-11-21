@@ -1,0 +1,55 @@
+{
+  "phase": "B1",
+  "cohort": "GSE188900",
+  "input": "upstream/local-source",
+  "input_sha256": "feadd1ed597ac5ab37ddb4f55860f50bd7773ac6f6353ce1c1d5db71e329a37f",
+  "cnmf_version": "1.7.1",
+  "primary_k": 8,
+  "replicates": 100,
+  "seed": 20260826,
+  "hvg_rule": "cNMF independent top 2000 HVGs per cohort",
+  "num_highvar_genes": 2000,
+  "matrix": ".X raw nonnegative integer UMI counts",
+  "beta_loss": "frobenius",
+  "init": "random",
+  "max_nmf_iter": 1000,
+  "workers": 4,
+  "threads_per_worker": 1,
+  "densify": false,
+  "consensus_local_neighborhood_size": 0.3,
+  "density_candidates_in_order": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "density_selection_rule": "first candidate retaining >=80% replicate components and >=5 components in every KMeans cluster; candidates 0.5 (cNMF default), 1.0, 2.0; no top-gene inspection",
+  "formal_instability_stop_rule": "silhouette <0.50",
+  "dominance_rules_locked_before_results": {
+    "NO_DOMINANCE": "largest patient total-usage fraction <0.50",
+    "MODERATE_PATIENT_DOMINANCE": "0.50 <= largest patient fraction <0.80",
+    "STRONG_PATIENT_DOMINANCE": "largest patient fraction >=0.80"
+  },
+  "usage_non_negligible_rule": "normalized cell usage >=0.01",
+  "appreciable_patient_rule": "patient mean normalized usage >=0.01",
+  "technical_flag_rules": {
+    "HIGH_MT_TOP50": ">=50% of top-50 score-ranked genes start MT-",
+    "HIGH_RIBOSOMAL_TOP50": ">=50% of top-50 score-ranked genes start RPL or RPS",
+    "DISSOCIATION_STRESS_TOP50_REVIEW": ">=30% of top-50 genes in locked stress set",
+    "VERY_SPARSE_USAGE_REVIEW": "<1% cells have normalized usage >=0.01",
+    "PRIVATE_PATIENT_REVIEW": "<=1 patient has mean normalized usage >=0.01",
+    "EXTREME_SAMPLE_DEPENDENCE_REVIEW": "largest sample contributes >=80% total usage",
+    "HIGH_WITHIN_COHORT_COSINE_REVIEW": "maximum cosine similarity >=0.90 between consensus HVG spectra within the same cohort"
+  },
+  "selected_density_threshold": 0.5,
+  "selection_metrics": {
+    "density_threshold": 0.5,
+    "components_total": 800,
+    "components_retained": 800,
+    "components_removed": 0,
+    "retained_fraction": 1.0,
+    "min_cluster_size": 80,
+    "silhouette": 0.8814882618440592,
+    "eligible_by_locked_rule": true,
+    "prediction_error": 11824613.1237812
+  }
+}

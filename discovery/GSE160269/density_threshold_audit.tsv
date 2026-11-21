@@ -1,0 +1,4 @@
+density_threshold	components_total	components_retained	components_removed	retained_fraction	min_cluster_size	silhouette	eligible_by_locked_rule
+0.5	1000	994	6	0.994	56	0.8279242767511943	True
+1.0	1000	1000	0	1.0	56	0.8213337394112546	True
+2.0	1000	1000	0	1.0	56	0.8213337394112546	True

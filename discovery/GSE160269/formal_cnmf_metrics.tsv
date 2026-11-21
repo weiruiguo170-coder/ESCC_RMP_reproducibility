@@ -1,0 +1,2 @@
+density_threshold	components_total	components_retained	components_removed	retained_fraction	min_cluster_size	silhouette	eligible_by_locked_rule	prediction_error	cohort	k	replicates_requested	replicates_completed	replicates_failed	worker_warning_count	consensus_warning_count	error_count	input_sha256
+0.5	1000	994	6	0.994	56	0.8279242767511943	True	72049996.41470796	GSE160269	10	100	100	0	0	1	0	066b91db354fd9648ba86970ad8f6078f85bbfa9e38c0b83aa510ea5aa58d283
