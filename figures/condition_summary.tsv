@@ -1,0 +1,71 @@
+family	RMP	size	rows	changed	indeterminate	observed_categories
+threshold alternatives	RMP_C01	50	20	1	1	INDETERMINATE | Primary
+threshold alternatives	RMP_C01	100	20	1	1	INDETERMINATE | Primary
+threshold alternatives	RMP_C02	50	20	2	1	Exploratory | INDETERMINATE | Primary
+threshold alternatives	RMP_C02	100	20	2	1	Exploratory | INDETERMINATE | Primary
+threshold alternatives	RMP_C03	50	20	1	0	Exploratory | Primary
+threshold alternatives	RMP_C03	100	20	1	0	Exploratory | Secondary
+threshold alternatives	RMP_C04	50	20	0	0	Exploratory
+threshold alternatives	RMP_C04	100	20	0	0	Exploratory
+threshold alternatives	RMP_C05	50	20	2	1	Exploratory | INDETERMINATE | Primary
+threshold alternatives	RMP_C05	100	20	3	1	Exploratory | INDETERMINATE | Primary
+threshold alternatives	RMP_C06	50	20	0	0	Exploratory
+threshold alternatives	RMP_C06	100	20	0	0	Exploratory
+threshold alternatives	RMP_C07	50	20	2	1	Exploratory | INDETERMINATE | Secondary
+threshold alternatives	RMP_C07	100	20	2	1	Exploratory | INDETERMINATE | Secondary
+QC alternatives	RMP_C01	50	9	0	0	Primary
+QC alternatives	RMP_C01	100	9	0	0	Primary
+QC alternatives	RMP_C02	50	9	0	0	Primary
+QC alternatives	RMP_C02	100	9	0	0	Primary
+QC alternatives	RMP_C03	50	9	0	0	Exploratory
+QC alternatives	RMP_C03	100	9	0	0	Exploratory
+QC alternatives	RMP_C04	50	9	0	0	Exploratory
+QC alternatives	RMP_C04	100	9	0	0	Exploratory
+QC alternatives	RMP_C05	50	9	2	0	Exploratory | Primary
+QC alternatives	RMP_C05	100	9	2	0	Exploratory | Primary
+QC alternatives	RMP_C06	50	9	0	0	Exploratory
+QC alternatives	RMP_C06	100	9	0	0	Exploratory
+QC alternatives	RMP_C07	50	9	2	0	Exploratory | Secondary
+QC alternatives	RMP_C07	100	9	0	0	Secondary
+balanced projections	RMP_C01	50	300	0	0	Primary
+balanced projections	RMP_C01	100	300	0	0	Primary
+balanced projections	RMP_C02	50	300	0	0	Primary
+balanced projections	RMP_C02	100	300	0	0	Primary
+balanced projections	RMP_C03	50	300	300	0	Primary
+balanced projections	RMP_C03	100	300	300	0	Secondary
+balanced projections	RMP_C04	50	300	0	0	Exploratory
+balanced projections	RMP_C04	100	300	0	0	Exploratory
+balanced projections	RMP_C05	50	300	0	0	Primary
+balanced projections	RMP_C05	100	300	0	0	Primary
+balanced projections	RMP_C06	50	300	0	0	Exploratory
+balanced projections	RMP_C06	100	300	0	0	Exploratory
+balanced projections	RMP_C07	50	300	0	0	Secondary
+balanced projections	RMP_C07	100	300	0	0	Secondary
+cohort deletion	RMP_C01	50	2	1	1	INDETERMINATE | Primary
+cohort deletion	RMP_C01	100	2	1	1	INDETERMINATE | Primary
+cohort deletion	RMP_C02	50	2	1	1	INDETERMINATE | Primary
+cohort deletion	RMP_C02	100	2	1	1	INDETERMINATE | Primary
+cohort deletion	RMP_C03	50	2	0	0	Exploratory
+cohort deletion	RMP_C03	100	2	0	0	Exploratory
+cohort deletion	RMP_C04	50	2	0	0	Exploratory
+cohort deletion	RMP_C04	100	2	0	0	Exploratory
+cohort deletion	RMP_C05	50	2	1	1	INDETERMINATE | Primary
+cohort deletion	RMP_C05	100	2	1	1	INDETERMINATE | Primary
+cohort deletion	RMP_C06	50	2	0	0	Exploratory
+cohort deletion	RMP_C06	100	2	0	0	Exploratory
+cohort deletion	RMP_C07	50	2	1	1	INDETERMINATE | Secondary
+cohort deletion	RMP_C07	100	2	1	1	INDETERMINATE | Secondary
+dimension deletion	RMP_C01	50	10	4	4	INDETERMINATE | Primary
+dimension deletion	RMP_C01	100	10	4	4	INDETERMINATE | Primary
+dimension deletion	RMP_C02	50	10	4	4	INDETERMINATE | Primary
+dimension deletion	RMP_C02	100	10	4	4	INDETERMINATE | Primary
+dimension deletion	RMP_C03	50	10	2	2	Exploratory | INDETERMINATE
+dimension deletion	RMP_C03	100	10	2	2	Exploratory | INDETERMINATE
+dimension deletion	RMP_C04	50	10	2	2	Exploratory | INDETERMINATE
+dimension deletion	RMP_C04	100	10	2	2	Exploratory | INDETERMINATE
+dimension deletion	RMP_C05	50	10	4	4	INDETERMINATE | Primary
+dimension deletion	RMP_C05	100	10	4	4	INDETERMINATE | Primary
+dimension deletion	RMP_C06	50	10	2	2	Exploratory | INDETERMINATE
+dimension deletion	RMP_C06	100	10	2	2	Exploratory | INDETERMINATE
+dimension deletion	RMP_C07	50	10	4	4	INDETERMINATE | Secondary
+dimension deletion	RMP_C07	100	10	4	4	INDETERMINATE | Secondary
