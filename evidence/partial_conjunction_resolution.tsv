@@ -1,0 +1,7 @@
+N	u	target	matched_draws	nominal_p_floor	holm_first_floor	attainable_nominal	attainable_holm
+14	2	REPEATED	199	0.065	0.455	False	False
+14	8	MAJORITY	199	0.035	0.245	True	False
+14	2	REPEATED	999	0.013	0.091	True	False
+14	8	MAJORITY	999	0.007	0.049	True	True
+14	2	REPEATED	1000	0.012987012987013	0.0909090909090909	True	False
+14	8	MAJORITY	1000	0.00699300699300699	0.048951048951049	True	True

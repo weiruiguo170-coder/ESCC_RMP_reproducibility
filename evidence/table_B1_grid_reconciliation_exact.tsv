@@ -1,0 +1,15 @@
+RMP	size	frozen_baseline	codex_std_paths	codex_std_determinate	codex_std_INDETERMINATE	codex_std_INDETERMINATE_frac	codex_std_retention_all	codex_std_retention_determinate_only	agy_r1_paths	agy_r1_retention	harmonized_paths	harmonized_codex_retention	harmonized_agy_retention	harmonized_diff_count	linked_cutoff_settings	interpretation
+RMP_C01	50	Primary	17280	9720	7560	0.4375	0.421875	0.75	18000	1.0	216	1.0	1.0	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C01	100	Primary	17280	9720	7560	0.4375	0.421875	0.75	18000	1.0	216	1.0	1.0	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C02	50	Primary	17280	12744	4536	0.2625	0.3375	0.4576271186440678	18000	0.9	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C02	100	Primary	17280	12744	4536	0.2625	0.3375	0.4576271186440678	18000	0.9	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C03	50	Exploratory	17280	15768	1512	0.0875	0.8	0.8767123287671232	18000	0.4	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C03	100	Exploratory	17280	15768	1512	0.0875	0.8	0.8767123287671232	18000	0.4	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C04	50	Exploratory	17280	16416	864	0.05	0.95	1.0	18000	0.825	216	1.0	1.0	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C04	100	Exploratory	17280	16416	864	0.05	0.95	1.0	18000	0.825	216	1.0	1.0	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C05	50	Primary	17280	12744	4536	0.2625	0.253125	0.3432203389830508	18000	0.3733333333333333	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C05	100	Primary	17280	13392	3888	0.225	0.16875	0.2177419354838709	18000	0.35	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C06	50	Exploratory	17280	17280	0	0.0	1.0	1.0	18000	1.0	216	1.0	1.0	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C06	100	Exploratory	17280	17280	0	0.0	1.0	1.0	18000	1.0	216	1.0	1.0	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C07	50	Secondary	17280	12744	4536	0.2625	0.3375	0.4576271186440678	18000	0.765	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
+RMP_C07	100	Secondary	17280	12744	4536	0.2625	0.3375	0.4576271186440678	18000	0.85	216	0.75	0.75	0	72	Harmonized replay, including constructed settings; mixed grids use different denominators.
