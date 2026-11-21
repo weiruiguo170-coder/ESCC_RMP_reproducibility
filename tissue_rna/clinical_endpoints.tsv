@@ -1,0 +1,29 @@
+RMP	endpoint	n_patients	n_categories	signature	family	status	effect	P	test	reason	BH_FDR
+RMP_C01	TNM_stage_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.0315444989859354	0.675081456222933	Spearman two-sided asymptotic; ordinal endpoint		0.833924151804799
+RMP_C02	TNM_stage_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.137395628942672	0.0666454067710329	Spearman two-sided asymptotic; ordinal endpoint		0.199936220313099
+RMP_C03	TNM_stage_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.126765040652646	0.0908468757054086	Spearman two-sided asymptotic; ordinal endpoint		0.228989421507876
+RMP_C04	TNM_stage_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.0525859767413257	0.4844849168137	Spearman two-sided asymptotic; ordinal endpoint		0.655797575959217
+RMP_C05	TNM_stage_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.0777249556942824	0.30105708221584	Spearman two-sided asymptotic; ordinal endpoint		0.472770943703636
+RMP_C06	TNM_stage_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.0754948945063304	0.315180629135757	Spearman two-sided asymptotic; ordinal endpoint		0.472770943703636
+RMP_C07	TNM_stage_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.00427349649259021	0.954724281150904	Spearman two-sided asymptotic; ordinal endpoint		0.954724281150904
+RMP_C01	differentiation_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.175627130745059	0.0186940116986072	Spearman two-sided asymptotic; ordinal endpoint		0.0654290409451252
+RMP_C02	differentiation_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.346299092773025	2.04965303312351e-06	Spearman two-sided asymptotic; ordinal endpoint		4.30427136955937e-05
+RMP_C03	differentiation_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.195004840038302	0.0089000255570832	Spearman two-sided asymptotic; ordinal endpoint		0.0467251341746868
+RMP_C04	differentiation_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.185561883604647	0.0128864137726478	Spearman two-sided asymptotic; ordinal endpoint		0.0541229378451206
+RMP_C05	differentiation_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.217281009118431	0.00348190496415166	Spearman two-sided asymptotic; ordinal endpoint		0.0243733347490616
+RMP_C06	differentiation_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.247911904242915	0.000819901318094487	Spearman two-sided asymptotic; ordinal endpoint		0.00860896383999212
+RMP_C07	differentiation_ordinal	179	3	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.124012921447393	0.0981383235033753	Spearman two-sided asymptotic; ordinal endpoint		0.228989421507876
+RMP_C01	N_stage_ordinal	179	4	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.0507774516040515	0.499655295968928	Spearman two-sided asymptotic; ordinal endpoint		0.655797575959217
+RMP_C02	N_stage_ordinal	179	4	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.0805428813064131	0.283817396746972	Spearman two-sided asymptotic; ordinal endpoint		0.472770943703636
+RMP_C03	N_stage_ordinal	179	4	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.0879296994853116	0.241821533897542	Spearman two-sided asymptotic; ordinal endpoint		0.461659291986216
+RMP_C04	N_stage_ordinal	179	4	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.0256260986891824	0.733474144548945	Spearman two-sided asymptotic; ordinal endpoint		0.855719835307102
+RMP_C05	N_stage_ordinal	179	4	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.00658992348630115	0.930233996778995	Spearman two-sided asymptotic; ordinal endpoint		0.954724281150904
+RMP_C06	N_stage_ordinal	179	4	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	-0.107620345648496	0.151588582796338	Spearman two-sided asymptotic; ordinal endpoint		0.31833602387231
+RMP_C07	N_stage_ordinal	179	4	Top50	all evaluable clinicopathologic associations	EVALUATED_EXPLORATORY	0.0113532060885778	0.880104883763736	Spearman two-sided asymptotic; ordinal endpoint		0.954724281150904
+RMP_C01	M_stage_ordinal	0	0	Top50	all evaluable clinicopathologic associations	CONDITIONAL_BLOCKED				M not provided in source table; never inferred from TNM stage	
+RMP_C02	M_stage_ordinal	0	0	Top50	all evaluable clinicopathologic associations	CONDITIONAL_BLOCKED				M not provided in source table; never inferred from TNM stage	
+RMP_C03	M_stage_ordinal	0	0	Top50	all evaluable clinicopathologic associations	CONDITIONAL_BLOCKED				M not provided in source table; never inferred from TNM stage	
+RMP_C04	M_stage_ordinal	0	0	Top50	all evaluable clinicopathologic associations	CONDITIONAL_BLOCKED				M not provided in source table; never inferred from TNM stage	
+RMP_C05	M_stage_ordinal	0	0	Top50	all evaluable clinicopathologic associations	CONDITIONAL_BLOCKED				M not provided in source table; never inferred from TNM stage	
+RMP_C06	M_stage_ordinal	0	0	Top50	all evaluable clinicopathologic associations	CONDITIONAL_BLOCKED				M not provided in source table; never inferred from TNM stage	
+RMP_C07	M_stage_ordinal	0	0	Top50	all evaluable clinicopathologic associations	CONDITIONAL_BLOCKED				M not provided in source table; never inferred from TNM stage	

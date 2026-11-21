@@ -1,0 +1,13 @@
+﻿question	judgment	RNA_transfer_status
+1 Truly independent?	Source-level INDEPENDENT_EXTERNAL for nine in-house ESCC patients; prior metadata feasibility exposure, no expression input found; genotype-level overlap not tested	NOT_EVALUABLE
+2 Actual eligible ESCC count?	Nine distinct source-mapped ESCC candidates; zero admitted/tested patient cell populations; these counts are different	NOT_EVALUABLE
+3 Malignant identity credible?	Method described but barcode mapping/reference/doublet calls not verified; not admissible as confirmed malignant cells	NOT_EVALUABLE
+4 Frozen signatures supported?	No expression validation executed; NOT_EVALUABLE	NOT_EVALUABLE
+5 Which programs supported/failed?	All seven and both sizes NOT_EVALUABLE; none classified as biological failure	NOT_EVALUABLE
+6 Patient or technical dependency?	Treatment UNKNOWN and platform discrepancy documented; expression heterogeneity/technical effects not measured	NOT_EVALUABLE
+7 Consistent with old cohorts?	Historical results reused for context only; new-versus-old concordance NOT_EVALUABLE	NOT_EVALUABLE
+8 External RNA validation strengthened?	No new patient RNA evidence; audit strengthened provenance and prevented overclaim	NOT_EVALUABLE
+9 Framework more persuasive?	Improves transparent admission discipline only; no independent method effectiveness established	NOT_EVALUABLE
+10 Ready for E1/R1/R2 response?	Yes as an honest audit addendum after author review; not as evidence of successful validation	NOT_EVALUABLE
+11 Remaining unsupported claims?	Malignant state transfer, new cohort rediscovery, ABC reliability calibration, cross-layer preservation, clinical or treatment prediction	NOT_EVALUABLE
+12 More computation necessary?	Prioritize author cell-call/QC/reference map; then freeze a reconstruction or validation protocol. More RMP scoring or FASTQ downloads before identity admission is not justified	NOT_EVALUABLE

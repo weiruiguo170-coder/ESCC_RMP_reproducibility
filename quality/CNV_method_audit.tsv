@@ -1,0 +1,14 @@
+item	status	evidence
+raw_input	CONFIRMED	37777x33538;69870182nonzero entries all integral>=0;layers empty;no raw slot
+hidden_transform	NOT_FOUND	Historical script no normalize/log before CNV; raw replay recovers489 IDs and saved scores within2e-8
+matrix_read	CONFIRMED	layer omitted=>None=>adata.X; installed source explicitly selectsX; does not use log layer
+double_normalization	ABSENT	New repair divides raw counts once by total_allgenes then log1p once; raw input checked numerically
+reference	PARTIAL	P1/P2/P4 paired adjacent-normal epithelial232/2327/65; tissue+marker based, not independent DNA normal karyotype
+gene_coordinates	CONFIRMED	Ensembl GRCh38release112 GTF;31851mapped autosomal genes; sorted by chromosome/start in installed kernel
+historical_parameters	CONFIRMED	window100 step10 clip3 dynamic1.5 chunk2000 n_jobs4;score meanabsolute windows;threshold normal q.99
+installed_version	CONFIRMED	infercnvpy0.6.1; original run-time version not independently recovered; current raw replay confirms numerical compatibility
+chunk_noise	CONFIRMED_SECOND_ISSUE	0.6.1 computes std per chunk; R1-5chunk500 is scientific parameter difference, not just compute resource
+repair_primary	COMPLETED	all-gene normalize_total1e4 equivalent sparse scaling then log1p;fullpatient chunk;window100;unchanged normal99 rule
+bounded_sensitivity	COMPLETED	6fixed configs;no q99 sweep;raw2000/logauto2000/logautoFull/logallFullW100/W50/W150
+threshold_interpretation	LIMITED	q99 recalculated per scale/patient;relative reference tail, not validated malignancy posterior or known1%false-positive rate
+original_author_CNV	METHOD_NOT_IDENTIFIABLE	GEO no recovered original cell-level labels or identifiable author CNV implementation

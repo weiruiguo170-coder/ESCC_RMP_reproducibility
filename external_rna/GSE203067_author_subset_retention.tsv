@@ -1,0 +1,5 @@
+patient_id	original_cells	author_epithelial_cells	removed	coherence_evaluable_min20
+P1	632	557	75	True
+P2	3985	3861	124	True
+P3	14	14	0	False
+P4	18	18	0	False
