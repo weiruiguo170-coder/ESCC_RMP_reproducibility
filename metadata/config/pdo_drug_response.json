@@ -1,0 +1,29 @@
+{
+  "phase": "Frozen RMP x ESCC PDO functional validation",
+  "seed": 20260831,
+  "primary_RMPs": [
+    "RMP_C01",
+    "RMP_C02",
+    "RMP_C07"
+  ],
+  "primary_signature": "Phase D frozen Top50",
+  "sensitivity_signature": "Phase D frozen Top100",
+  "scoring": "Phase E locked single-sample rank score: (mean_rank-(m+1)/2)/(N-m), bounded [0,1]",
+  "expression": "author-provided TPM; no re-normalization; Ensembl GRCh38.105 IDs mapped to HGNC-approved symbols; duplicate canonical symbols collapsed by arithmetic mean",
+  "primary_endpoint": "Spearman correlation, frozen Top50 score vs author-reported CDDP AUC; n=10; BH across C01/C02/C07",
+  "secondary": [
+    "Mann-Whitney resistant vs sensitive, n=7 vs 8; rank-biserial effect",
+    "Spearman vs fixed-dose 2.46 uM 5-FU relative viability, n=12"
+  ],
+  "robustness": [
+    "Top100",
+    "leave-one-PDO-out",
+    "1000 pair-bootstrap resamples"
+  ],
+  "matched_random_null": "1000 sets per primary RMP, gene-detection-rate decile matched, outcome-blind",
+  "identifier_info": {
+    "original_identifier_type": "Ensembl gene ID (GRCh38.105; stable ID without version)",
+    "mapping_source": "data/raw/reference/HGNC_complete_set.txt"
+  },
+  "no_outcome_driven_changes": true
+}

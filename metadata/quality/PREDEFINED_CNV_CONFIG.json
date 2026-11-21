@@ -1,0 +1,55 @@
+{
+  "configs": [
+    {
+      "name": "RAW_AUTO_C2000_W100",
+      "scale": "RAW",
+      "normgenes": "AUTO",
+      "chunk": 2000,
+      "window": 100
+    },
+    {
+      "name": "LOG_AUTO_C2000_W100",
+      "scale": "LOG",
+      "normgenes": "AUTO",
+      "chunk": 2000,
+      "window": 100
+    },
+    {
+      "name": "LOG_AUTO_FULL_W100",
+      "scale": "LOG",
+      "normgenes": "AUTO",
+      "chunk": 100000,
+      "window": 100
+    },
+    {
+      "name": "LOG_ALL_FULL_W100",
+      "scale": "LOG",
+      "normgenes": "ALL",
+      "chunk": 100000,
+      "window": 100
+    },
+    {
+      "name": "LOG_ALL_FULL_W50",
+      "scale": "LOG",
+      "normgenes": "ALL",
+      "chunk": 100000,
+      "window": 50
+    },
+    {
+      "name": "LOG_ALL_FULL_W150",
+      "scale": "LOG",
+      "normgenes": "ALL",
+      "chunk": 100000,
+      "window": 150
+    }
+  ],
+  "main": "LOG_ALL_FULL_W100",
+  "quantile": 0.99,
+  "lfc_clip": 3,
+  "step": 10,
+  "dynamic_threshold": 1.5,
+  "reference": "patient-matched normal epithelial >=50",
+  "version": "0.6.1",
+  "execution": "installed official _get_reference/_infercnv_chunk called serially, same algorithm, no process-map overhead",
+  "interpretation": "CNV-supported candidate only; unmatched cells undetermined"
+}

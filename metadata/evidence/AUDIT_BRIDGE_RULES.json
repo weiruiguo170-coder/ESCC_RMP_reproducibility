@@ -1,0 +1,17 @@
+{
+  "timing": "revision-stage descriptive bridge",
+  "priority": [
+    "missing required domain -> INDETERMINATE",
+    "D false or R warning or Q false -> Concentration-cautioned or limited support",
+    "P true -> Joint RNA and proteomic contrast support",
+    "otherwise -> RNA-domain support without qualified proteomic contrast support"
+  ],
+  "D": "reciprocal best, BH80<0.05, >=2 component metrics, no technical flag",
+  "R": "max RAW or EQUAL across primary discovery inputs >=0.80",
+  "Q_historical": "n>=5, coverage>=0.5, mean>0, CI_low>0, BH7<0.05, positive fraction>=0.70",
+  "Q_current_mean": "same mean criterion; positive fraction shown separately",
+  "P": "coverage>=0.60, interval excludes zero, matched null BH7<0.05",
+  "missing": "retain missing; do not evaluate a joint group with required input unavailable",
+  "label_scope": "source-alias grouping, frozen signature and reference RNA measurement",
+  "PDO": "separate endpoint; excluded from group assignment"
+}

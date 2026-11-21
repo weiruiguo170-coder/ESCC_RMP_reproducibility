@@ -1,0 +1,22 @@
+{
+  "S1_cnmf_input_cell_counts.tsv": "dc0f80088e175e129d4e90ca3483f6d95b2fe472fc400a590b7108c3a23bb3da",
+  "S2_candidate_rank_diagnostics.tsv": "f41f16c4feb9775a920c277e7eee9dca7b216be7931ea25f4f81dc62d7c1c751",
+  "S2_formal_cnmf.tsv": "37bc6e19626ab2f30f67816808553b4667696ef1bd429e4b4c1f13d312adce41",
+  "S2_program_annotation.tsv": "fa85fea0aa58e69fb0068c18b7bb8e1549a16a2eac4a7c0497337abcbad5523f",
+  "S3_all_80_pairs.tsv": "6fbd8531a907373e3ee625cfb313da63b14cc327f3c11041fb47e4dd99953825",
+  "S3_matching_margins.tsv": "13766d5e26158fa7579a57bf3ea602d5e32b905a2c11c1ed3b8055a590371d1c",
+  "S3_weighting_summary.tsv": "2537688f4061f6b6716fb0282b2f2337145075741b36a4f2ac43a36bef46bfe8",
+  "S4_original_expression_summary.tsv": "24eb6a04ffcf4b7ba30106d1bd07575071a5b226022eef00844ad48d85968e1d",
+  "S4_Q_summary.tsv": "baefeaec9b6f92b1acfed471e29bc9698d190b87dc693872e6ab2b120ef637a9",
+  "S5_profiles.tsv": "d74b6c6586537c4e7666e32263742ab029036b92f7ca3f46f0d3bc49d349427e",
+  "S6_bulk_context.tsv": "7b67ab92a15ff24669c030aa473561699a83236426ad7ddd0afe9be7ebe6bce4",
+  "S6_bulk_patient_scores.tsv": "642cb2e98b090acaecce01ecf50b1efcd35d2c480970801c56eb20a2c459b046",
+  "S6_ordered_state_models.tsv": "dc7c76e74fb171b8787773b09af5f7ee00b1cfd23336751b01ff94cfa6f37d0f",
+  "S6_paired_state_contrasts.tsv": "4e965bf6ffc663f19c0cd62a509c7f48fb122e794601cd081983cd7dbf508434",
+  "S6_patient_state_scores.tsv": "3d7320852c6cfb8e80da48ecbdba27bbd36ca7002dab0772c9eebc99780a1d86",
+  "S7_Liu_gene_effects.tsv": "9f196ff3c5ad265b95c3f6d8d21aeac9c0f807b6787d6cf790f58eb2c20b0fbe",
+  "S7_paired_proteomic_scores.tsv": "64e6273725c98b9a44571d6e4645ba3be338e9f09b6232a1581f6d1c7b2a3b2a",
+  "S7_proteomic_contrasts.tsv": "5fbe160173e4557d025b2173eb795f4c7714ce53f322c38addb61db00de3f3e3",
+  "S8_PDO_exact_results.tsv": "3aef7a86a5a68f942149daac1b9c77ff9c7b651eabbd3da0e91763a458f23e86",
+  "S8_PDO_scores_endpoints.tsv": "3a30b6494b81ce7d511ef2955c1c993b72786c39f126344644d85f51acd73e03"
+}

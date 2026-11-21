@@ -1,0 +1,3251 @@
+{
+  "S10_controlled_claim_operating_characteristics.tsv": {
+    "files": [
+      "results/tables/evidence/controlled_claim_operating_characteristics.tsv"
+    ],
+    "sha256": "68f36ed0c7faca03f287de970f60ef1a41184f00bc7f974b7311545ba2377dca",
+    "rows": 6048,
+    "columns": 15,
+    "role": "Controlled-world operating characteristics, evaluability and power by mechanism and claim",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_controlled_mean_null_family.tsv": {
+    "files": [
+      "results/tables/evidence/controlled_mean_null_family.tsv"
+    ],
+    "sha256": "e2cb464764d6a38de0be19638851f1f526d63204e2022ff48ccd6327d78f5b90",
+    "rows": 36,
+    "columns": 9,
+    "role": "All zero-correlation mean-level null controls, distinct from majority-error claims",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_controlled_sensitivity_depth_predictiveness.tsv": {
+    "files": [
+      "results/tables/evidence/controlled_sensitivity_depth_predictiveness.tsv"
+    ],
+    "sha256": "27464f06b89aa5dab4708c374f54ce1b23e03f3b5c17ea0bea7d6b23513ae4c9",
+    "rows": 3,
+    "columns": 10,
+    "role": "Paired 1x/4x world-level sensitivity rates and uncertainty",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_final_claim_profiles.tsv": {
+    "files": [
+      "results/tables/evidence/final_claim_profiles.tsv"
+    ],
+    "sha256": "b3c51ca8605d4670798a5bd88d12f128f5231129a63c278632b0740a8ac5182a",
+    "rows": 14,
+    "columns": 27,
+    "role": "Final native-domain claim profiles and qualified interpretation for all seven programs",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_harmonized_grid.tsv": {
+    "files": [
+      "results/tables/evidence/harmonized_grid.tsv"
+    ],
+    "sha256": "b91007aeb1213c97092e7d0289d5e28bcef8314d7abde1f96a5ea7091b605b58",
+    "rows": 3024,
+    "columns": 11,
+    "role": "Complete 216-path-by-14-profile harmonized rule comparison",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_partial_conjunction_resolution.tsv": {
+    "files": [
+      "results/tables/evidence/partial_conjunction_resolution.tsv"
+    ],
+    "sha256": "b209c50fd66898dd1a253ff3c1e5c604ece2914e7a76cbabcd2678beea984d3e",
+    "rows": 6,
+    "columns": 8,
+    "role": "Finite matched-null resolution limits for PC2/PC8 and multiple-testing thresholds",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_real_legacy_leave_one_summary.tsv": {
+    "files": [
+      "results/tables/evidence/real_legacy_leave_one_summary.tsv"
+    ],
+    "sha256": "37f68c479999dc9994f90838b8067a85a9fd4c480a88bfe8c01b89a948de7608",
+    "rows": 14,
+    "columns": 4,
+    "role": "Leave-one-patient changes to the historical/reference Q support statements",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_real_patient_measurements.tsv": {
+    "files": [
+      "data/processed/external_rna/patient_measurements.tsv"
+    ],
+    "sha256": "1003b118fbe6654b7ea2a88b4b394b4b8124932f3ef1f433affec80442743008",
+    "rows": 1512,
+    "columns": 12,
+    "role": "All 1512 patient measurements across the nine rank/background specifications",
+    "supplement": "S4;S10",
+    "unit": "patient/signature/specification"
+  },
+  "S10_real_Q_claims_by_spec.tsv": {
+    "files": [
+      "results/tables/evidence/real_Q_claims_by_spec.tsv"
+    ],
+    "sha256": "00c55be00dd1b303de9b31061ae55d1b015f3de5ee99842d2085e9c28e51f042",
+    "rows": 252,
+    "columns": 31,
+    "role": "All 252 cohort/program/size/measurement specifications with Q and PC states",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_retention_denominators.tsv": {
+    "files": [
+      "results/tables/evidence/retention_denominators.tsv"
+    ],
+    "sha256": "025d38edf8c33425374e190f9f53961fb4f2f10557e064d1f9c77132bbeb2016",
+    "rows": 14,
+    "columns": 7,
+    "role": "Explicit all-path versus determinate-path denominators for sensitivity retention",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_seven_RMP_profiles.tsv": {
+    "files": [
+      "results/tables/evidence/seven_RMP_profiles.tsv"
+    ],
+    "sha256": "8afdcf08811d8b00cc80b4c9f5ceecb49f7c7c678d305e7c6798c38719709acb",
+    "rows": 14,
+    "columns": 100,
+    "role": "Frozen reference profile used to check discovery, Q, raw protein and PDO endpoint reconstruction",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_table_A3_P_coverage_subsampling_stability.tsv": {
+    "files": [
+      "results/tables/evidence/table_A3_P_coverage_subsampling_stability.tsv"
+    ],
+    "sha256": "a1287396e173e4fa44720018410774cbfab91ed8aa7b81e32370e1f56722c659",
+    "rows": 83,
+    "columns": 19,
+    "role": "Measured-protein subset resampling used to assess the C03 Top100 coverage boundary",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_table_B1_grid_reconciliation_exact.tsv": {
+    "files": [
+      "results/tables/evidence/table_B1_grid_reconciliation_exact.tsv"
+    ],
+    "sha256": "e5bd2e51ddabd41cbdb1b21b44aab2c22dadac4d33c6ff14550de9921446f722",
+    "rows": 14,
+    "columns": 17,
+    "role": "Final manuscript/supplement or explicit reviewer evidence",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S10_world_level_rates_recomputed.tsv": {
+    "files": [
+      "results/tables/evidence/world_level_rates_recomputed.tsv"
+    ],
+    "sha256": "889ebcf06989bc3d8aeb79b835210e0a35db2a1e65d3ccabd0fbf57b2aa7e580",
+    "rows": 48,
+    "columns": 9,
+    "role": "World-level false-majority and broad-program detection rates with binomial intervals",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "S1_bounded_donor_sensitivity.tsv": {
+    "files": [
+      "results/tables/quality/bounded_donor_sensitivity.tsv"
+    ],
+    "sha256": "ea89b323e280880b2b92f270c370e0a6d96538dc83fb878ce30195a95446974f",
+    "rows": 7,
+    "columns": 17,
+    "role": "RAW/EQUAL maxima and warning frequencies across the reference grouping plus 15 pair merges",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "S1_cnmf_input_cell_counts.tsv": {
+    "files": [
+      "results/tables/quality/cnmf_input_cell_counts.tsv"
+    ],
+    "sha256": "dc0f80088e175e129d4e90ca3483f6d95b2fe472fc400a590b7108c3a23bb3da",
+    "rows": 69,
+    "columns": 4,
+    "role": "Actual per-source cell counts entering each independent cNMF fit",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "S1_CNV_configurations_by_patient.tsv": {
+    "files": [
+      "results/tables/quality/CNV_configurations_by_patient.tsv"
+    ],
+    "sha256": "44cb59a2199ccb049eb8af2e8da6485e953c84ebb6132912933b4a264a05406b",
+    "rows": 18,
+    "columns": 13,
+    "role": "Patient/reference counts and candidate selections under the predefined CNV configurations",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "S1_CNV_depth_associations.tsv": {
+    "files": [
+      "results/tables/quality/CNV_depth_associations.tsv"
+    ],
+    "sha256": "c8edbf496d34298150c5ce2576e366fe1dd19f209ec20e5eaaa5d027aeebffd3",
+    "rows": 71,
+    "columns": 6,
+    "role": "Descriptive relationships between library size and CNV score under each configuration",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "S1_CNV_identity_decision.json": {
+    "files": [
+      "data/metadata/quality/CNV_identity_decision.json"
+    ],
+    "sha256": "06dfc3b8456eb2be28a3018970eed783fff9ab47506747b0cde00ba15fc3c9df",
+    "rows": "",
+    "columns": "",
+    "role": "Operational candidate-identity adjudication and retained limitations",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "S1_CNV_method_audit.tsv": {
+    "files": [
+      "results/tables/quality/CNV_method_audit.tsv"
+    ],
+    "sha256": "c63f67ba1f887bb9aa16d815773e09e2bd1ecefb09bf8b9991ca64f7f83142e9",
+    "rows": 13,
+    "columns": 3,
+    "role": "Historical and repaired CNV normalization, window/reference and chunk definitions",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "S1_donor_mapping.tsv": {
+    "files": [
+      "data/metadata/quality/source_mapping.tsv"
+    ],
+    "sha256": "c801887ebe8ad5359dbbeebf4bbec37b0a197e25c05f1bf2709380e406cac83f",
+    "rows": 8,
+    "columns": 15,
+    "role": "Original GEO/specimen-to-P1\u2013P6 records; unresolved donor fields are preserved",
+    "supplement": "S1;S3",
+    "unit": "source specimen"
+  },
+  "S1_external_candidate_admission.tsv": {
+    "files": [
+      "results/tables/quality/external_candidate_admission.tsv"
+    ],
+    "sha256": "89d02cc98df069c0d6650c2260cc592ee1a9c9c47e295c28274e285d03e73e55",
+    "rows": 12,
+    "columns": 3,
+    "role": "External-cohort admission evidence and explicit failed-admission status",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "S2_annotation_theme_support.tsv": {
+    "files": [
+      "results/tables/discovery/annotation_theme_support.tsv"
+    ],
+    "sha256": "45a551ab0d2e016355b67864e5980afc93ff7d105864d544baca6f5f1f40e82c",
+    "rows": 294,
+    "columns": 9,
+    "role": "Archived annotation-theme enrichment supporting the descriptive RMP names",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_candidate_rank_diagnostics.tsv": {
+    "files": [
+      "results/tables/discovery/candidate_rank_diagnostics.tsv"
+    ],
+    "sha256": "f41f16c4feb9775a920c277e7eee9dca7b216be7931ea25f4f81dc62d7c1c751",
+    "rows": 18,
+    "columns": 18,
+    "role": "Silhouette/reconstruction diagnostics across the actually fitted candidate ranks",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_enrichment_resources.tsv": {
+    "files": [
+      "results/tables/discovery/enrichment_resources.tsv"
+    ],
+    "sha256": "7af6a139675600a6321520e35b306103de803872104d527a57999433de7d4c39",
+    "rows": 4,
+    "columns": 12,
+    "role": "Frozen enrichment-library versions, source URLs and checksums for authorized retrieval",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_formal_cnmf.tsv": {
+    "files": [
+      "results/tables/discovery/formal_cnmf.tsv"
+    ],
+    "sha256": "37bc6e19626ab2f30f67816808553b4667696ef1bd429e4b4c1f13d312adce41",
+    "rows": 3,
+    "columns": 18,
+    "role": "Selected ranks, fit completion and retained component-spectrum diagnostics",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_frozen_signatures.tsv": {
+    "files": [
+      "results/tables/discovery/frozen_signatures.tsv"
+    ],
+    "sha256": "8a9a281bd2ec55d9984bb1ee502fe2b52740f7248db68a4a6054736cf3ef32ab",
+    "rows": 1050,
+    "columns": 12,
+    "role": "All 1050 ordered Top50/Top100 member positions, source ranks, versions and hashes",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_ora_enrichment_all.tsv": {
+    "files": [
+      "results/tables/discovery/ora_enrichment_all_part01.tsv",
+      "results/tables/discovery/ora_enrichment_all_part02.tsv"
+    ],
+    "sha256": "58ec1746ceab6903b1ebbd90c0a3f1aba875dc240e3c6bd8d086afe89354982d",
+    "rows": 220626,
+    "columns": 13,
+    "role": "Complete over-representation results including non-significant terms",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_preranked_enrichment_all.tsv": {
+    "files": [
+      "results/tables/discovery/preranked_enrichment_all.tsv"
+    ],
+    "sha256": "a6a1b0b17d90c745dfaa851f01efbb358a770759e02f43bceb5758a5ed774b32",
+    "rows": 32760,
+    "columns": 13,
+    "role": "Complete preranked enrichment results including non-significant terms",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_program_annotation.tsv": {
+    "files": [
+      "results/tables/discovery/program_annotation.tsv"
+    ],
+    "sha256": "fa85fea0aa58e69fb0068c18b7bb8e1549a16a2eac4a7c0497337abcbad5523f",
+    "rows": 7,
+    "columns": 26,
+    "role": "Source component identities and frozen biological annotations for all seven programs",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S2_shared_measured_gene_background.tsv": {
+    "files": [
+      "results/tables/discovery/shared_measured_gene_background.tsv"
+    ],
+    "sha256": "f81ca5dbdfa52b6d5550cca99307cf8807ec5bcd14d53c5a831a1d1d0b0a0105",
+    "rows": 9,
+    "columns": 8,
+    "role": "Measured gene-universe counts and background definitions for discovery annotation",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "S3_all_80_pairs.tsv": {
+    "files": [
+      "results/tables/discovery/all_80_pairs.tsv"
+    ],
+    "sha256": "6fbd8531a907373e3ee625cfb313da63b14cc327f3c11041fb47e4dd99953825",
+    "rows": 80,
+    "columns": 50,
+    "role": "All 80 candidate component pairs, component metrics, gene-label P values and BH80",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "S3_gene_overlap.tsv": {
+    "files": [
+      "results/tables/discovery/gene_overlap.tsv"
+    ],
+    "sha256": "6014a8f0659e669ced5405d13a0fa29e7fe30d50b3c8e44f77aad2a7be1e42a8",
+    "rows": 98,
+    "columns": 7,
+    "role": "Frozen Top50/Top100 member intersections between RMPs for redundancy/context assessment",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "S3_GSE160269_discovery_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE160269_lineage.tsv"
+    ],
+    "sha256": "2164c3fc15690d68cac262d5b4d11f1dce4ad4af5b4bcc04590457adf4368769",
+    "rows": 60,
+    "columns": 6,
+    "role": "GSE160269 discovery-input lineage and source-unit reconciliation",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "S3_GSE188900_discovery_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE188900_lineage.tsv"
+    ],
+    "sha256": "99824dbb2666fd262cf886a2984bb919a0caeefc230b2bd1e8dd2611e9570782",
+    "rows": 7,
+    "columns": 6,
+    "role": "GSE188900 discovery-input lineage under the retained six-patient grouping",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "S3_LOPO.tsv": {
+    "files": [
+      "results/tables/discovery/LOPO.tsv"
+    ],
+    "sha256": "113ee85dd3564761086fbf30acce6f08b06b1bf03e022776d76ba9e4233d15c2",
+    "rows": 663,
+    "columns": 13,
+    "role": "All source-unit deletions for discovery RAW/EQUAL concentration and effective representation",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "S3_matching_margins.tsv": {
+    "files": [
+      "results/tables/discovery/matching_margins.tsv"
+    ],
+    "sha256": "13766d5e26158fa7579a57bf3ea602d5e32b905a2c11c1ed3b8055a590371d1c",
+    "rows": 7,
+    "columns": 59,
+    "role": "Seven reciprocal matches and both directional next-best similarity margins",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "S3_patient_score_correlations.tsv": {
+    "files": [
+      "results/tables/external_rna/program_score_correlations.tsv"
+    ],
+    "sha256": "e5958a3357b1576d07a8755e164f7f9823c5958f55bb46b649530fe8ab673f81",
+    "rows": 196,
+    "columns": 8,
+    "role": "Patient-level rank correlations between frozen RMP expression scores in both external cohorts",
+    "supplement": "S4",
+    "unit": "cohort/patient-score comparison"
+  },
+  "S3_unit_level_contributions.tsv": {
+    "files": [
+      "results/tables/discovery/unit_level_contributions.tsv"
+    ],
+    "sha256": "8964ee55136208cc21f1bc43b030298ab59fed02bc46de00fa45e06b24de67cf",
+    "rows": 663,
+    "columns": 21,
+    "role": "Complete patient/source-unit usage contributions underpinning RAW/EQUAL summaries",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "S3_weighting_summary.tsv": {
+    "files": [
+      "results/tables/discovery/weighting_summary.tsv"
+    ],
+    "sha256": "2537688f4061f6b6716fb0282b2f2337145075741b36a4f2ac43a36bef46bfe8",
+    "rows": 7,
+    "columns": 37,
+    "role": "Seven-program representation, effective-patient and weighting-regime summaries",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "S4_GSE203067_author_subset_Q_summary.tsv": {
+    "files": [
+      "results/tables/external_rna/GSE203067_author_subset_Q_summary.tsv"
+    ],
+    "sha256": "0aea2ec6f9368a3b343396f90653fe1d5f7d2bfc34a91e1dfd8443b8f31fbd3f",
+    "rows": 14,
+    "columns": 19,
+    "role": "Descriptive Q on the author-annotated GSE203067 epithelial subset",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_GSE203067_author_subset_retention.tsv": {
+    "files": [
+      "results/tables/external_rna/GSE203067_author_subset_retention.tsv"
+    ],
+    "sha256": "9a4eace083ce0e5b483379c3ae146887e7d9add8ef7053abe413f6a81db39f4a",
+    "rows": 4,
+    "columns": 5,
+    "role": "Cell-retention accounting for the author-annotation sensitivity",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_original_expression_summary.tsv": {
+    "files": [
+      "results/tables/external_rna/original_expression_summary.tsv"
+    ],
+    "sha256": "24eb6a04ffcf4b7ba30106d1bd07575071a5b226022eef00844ad48d85968e1d",
+    "rows": 28,
+    "columns": 29,
+    "role": "Patient-pseudobulk matched-null expression summaries, separate from coordination Q",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_patient_expression.tsv": {
+    "files": [
+      "results/tables/external_rna/patient_expression.tsv"
+    ],
+    "sha256": "8ba6523d83cf86c905d04ea569dee644a6b341b9b71768cee222494e4f837650",
+    "rows": 252,
+    "columns": 19,
+    "role": "All patient-level frozen expression scores and matched-null z values",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_patient_Q.tsv": {
+    "files": [
+      "results/tables/external_rna/patient_Q.tsv"
+    ],
+    "sha256": "8a485eb80bc3ee70d1eeca6af8b111e3ed3eb67e5952b4830e2136e043fe1398",
+    "rows": 252,
+    "columns": 16,
+    "role": "Original-reference per-patient coordination, null effects and evaluability",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_patient_score_size_agreement.tsv": {
+    "files": [
+      "results/tables/external_rna/patient_score_size_agreement.tsv"
+    ],
+    "sha256": "4cd23a21b8cddd075420a1c67a99312429f3eaa7e20796607df2367f6610111e",
+    "rows": 14,
+    "columns": 4,
+    "role": "Agreement of Top50 and Top100 patient expression scores",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_Q_summary.tsv": {
+    "files": [
+      "results/tables/external_rna/Q_summary.tsv"
+    ],
+    "sha256": "baefeaec9b6f92b1acfed471e29bc9698d190b87dc693872e6ab2b120ef637a9",
+    "rows": 28,
+    "columns": 17,
+    "role": "Original RAW_RANK/HIST cohort Q, frozen intervals and support criteria",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_QC.tsv": {
+    "files": [
+      "results/tables/external_rna/QC.tsv"
+    ],
+    "sha256": "69e5847fbeb856753d9586edc9386da505402011dd74c24f6a7a58bd31784b29",
+    "rows": 31,
+    "columns": 13,
+    "role": "Cohort- and patient-level eligibility/cell-retention checks",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S4_QC_cohort_conditions.tsv": {
+    "files": [
+      "results/tables/external_rna/QC_cohort_conditions.tsv"
+    ],
+    "sha256": "d9fa99da3340750863fed2438dbf5b96c8bbe60d1737d98693fad4b28346f0b6",
+    "rows": 70,
+    "columns": 18,
+    "role": "External RNA results across predefined cell-QC conditions",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "S5_ALL14_FROZEN_EVIDENCE_INPUT.tsv": {
+    "files": [
+      "data/processed/evidence/frozen_program_evidence.tsv"
+    ],
+    "sha256": "f95846ef3209cd9396d43bd18eba9fa4a49986c802ebae347782a91aa888259f",
+    "rows": 14,
+    "columns": 139,
+    "role": "Frozen 14-program/size evidence inputs used by the classifier and claim-evaluation rules",
+    "supplement": "S5;S10",
+    "unit": "program/signature"
+  },
+  "S5_ALL7_STRATEGY_COMPARISON.tsv": {
+    "files": [
+      "results/tables/evidence/ALL7_STRATEGY_COMPARISON.tsv"
+    ],
+    "sha256": "be8311c42b8aeefcb5ef2d68f9ec314dede9a83957f87b96d8e654e20c2fc40e",
+    "rows": 448,
+    "columns": 9,
+    "role": "Complete 56-cell claim ledger for each signature size and M1\u2013M4 strategy",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_AUDIT_BRIDGE_RULES.json": {
+    "files": [
+      "data/metadata/evidence/AUDIT_BRIDGE_RULES.json"
+    ],
+    "sha256": "a414743d675dd734257263c57844b42e00a02e37828874e47ad442d0c2a742e3",
+    "rows": "",
+    "columns": "",
+    "role": "Current deterministic descriptive EDSC bridge and missing-domain handling",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_COORDINATION_SUBCLAIM_RESULTS.tsv": {
+    "files": [
+      "results/tables/evidence/COORDINATION_SUBCLAIM_RESULTS.tsv"
+    ],
+    "sha256": "0553323321b68cbf9c72861f5f6fe518a2b8d91519e2a2152843c5229102955a",
+    "rows": 140,
+    "columns": 7,
+    "role": "Distinct mean, repeated-patient and patient-majority coordination subclaims",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_EDSC_threshold_sensitivity.tsv": {
+    "files": [
+      "results/tables/evidence/EDSC_threshold_sensitivity.tsv"
+    ],
+    "sha256": "14c6d0589e9caefe716d63c47f482fd0f22a5d37589cd2653b9043e52a7e65e8",
+    "rows": 420,
+    "columns": 27,
+    "role": "Only the submitted model-B baseline, 20 threshold and nine QC alternatives",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_EMPIRICAL_VS_GENERIC_BOUNDARIES.tsv": {
+    "files": [
+      "results/tables/evidence/EMPIRICAL_VS_GENERIC_BOUNDARIES.tsv"
+    ],
+    "sha256": "f6ae4977dd827a767195a1e7d32adf09588bd5cc726f12398c5c443362709cd7",
+    "rows": 672,
+    "columns": 16,
+    "role": "Empirical versus generic cross-claim boundary qualifications under domain masking",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_framework_ablation.tsv": {
+    "files": [
+      "results/tables/evidence/framework_ablation.tsv"
+    ],
+    "sha256": "89f9a37ea75046647164153feca98d011fe01209c6b1d41f266aa8334a1988c2",
+    "rows": 12,
+    "columns": 14,
+    "role": "Domain-mask summary separating own-claim losses and cross-claim boundary changes",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_framework_leave_one_domain_out.tsv": {
+    "files": [
+      "results/tables/evidence/framework_leave_one_domain_out.tsv"
+    ],
+    "sha256": "02abb928aecc146b7109f7b81f69f87a1ce305358300a4b0d107418175af2c35",
+    "rows": 672,
+    "columns": 13,
+    "role": "Complete per-program/claim domain-mask statuses and restrictions",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_profiles.tsv": {
+    "files": [
+      "data/processed/evidence/frozen_program_evidence.tsv"
+    ],
+    "sha256": "f95846ef3209cd9396d43bd18eba9fa4a49986c802ebae347782a91aa888259f",
+    "rows": 14,
+    "columns": 139,
+    "role": "Frozen 14-program/size evidence inputs used by the classifier and claim-evaluation rules",
+    "supplement": "S5;S10",
+    "unit": "program/signature"
+  },
+  "S5_PROGRAM_STRATEGY_COUNTS.tsv": {
+    "files": [
+      "results/tables/evidence/PROGRAM_STRATEGY_COUNTS.tsv"
+    ],
+    "sha256": "f60b248b2123636778a429a374d8c8e8f373a3eb128958de4cad17c13ddf19d3",
+    "rows": 56,
+    "columns": 8,
+    "role": "M1\u2013M4 claim-state counts at each signature size",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_recomputed_audit_bridge.tsv": {
+    "files": [
+      "results/tables/evidence/recomputed_audit_bridge.tsv"
+    ],
+    "sha256": "8c13658be122bf97626edab3b6f50ed12b7fe0db3674b8787a14ba3ac10214ba",
+    "rows": 14,
+    "columns": 17,
+    "role": "Fourteen final descriptive EDSC classifications with native gate inputs",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S5_STAGE3_FULL_ENDPOINTS_REUSED.tsv": {
+    "files": [
+      "data/processed/evidence/technical_perturbation_endpoints.tsv"
+    ],
+    "sha256": "757fd6b1b4be196753c1699e852d5fa824d7e053ddd9f26b9bb3e031ad4f14ab",
+    "rows": 1008,
+    "columns": 43,
+    "role": "Source endpoints for technical-condition repeat and evidence-availability analyses",
+    "supplement": "S5;S10",
+    "unit": "program/perturbation/condition"
+  },
+  "S5_TECHNICAL_CONDITION_SOURCE_DATA.tsv": {
+    "files": [
+      "results/tables/evidence/TECHNICAL_CONDITION_SOURCE_DATA.tsv"
+    ],
+    "sha256": "90c275283ac6c116d471d630d6c961f2f3748ee4c50d940c5700e54450a0b5d6",
+    "rows": 98,
+    "columns": 43,
+    "role": "Fixed technical-condition repeat records used in the final framework figure",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "S6_bulk_context.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_context.tsv"
+    ],
+    "sha256": "7b67ab92a15ff24669c030aa473561699a83236426ad7ddd0afe9be7ebe6bce4",
+    "rows": 20,
+    "columns": 16,
+    "role": "All ten prespecified tumor-only signature/context comparisons per size, including negatives",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_bulk_context_gene_overlap.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_context_gene_overlap.tsv"
+    ],
+    "sha256": "7e2b9391219f7e67258e0e8c7aea5fb947ba716fdeacf35225c82adc8a2d070c",
+    "rows": 6,
+    "columns": 5,
+    "role": "Frozen member exclusions preventing direct gene-overlap inflation of context scores",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_bulk_paired_effects.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_paired_effects.tsv"
+    ],
+    "sha256": "3fcd55058fe274b777cf4d44ca82b9bbdb2fc669ab8667bdadaa8d37c8522259",
+    "rows": 7,
+    "columns": 10,
+    "role": "Seven-program paired bulk tumor\u2013adjacent differences with separate BH7",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_bulk_patient_scores.tsv": {
+    "files": [
+      "data/processed/tissue_rna/bulk_patient_scores.tsv"
+    ],
+    "sha256": "642cb2e98b090acaecce01ecf50b1efcd35d2c480970801c56eb20a2c459b046",
+    "rows": 179,
+    "columns": 23,
+    "role": "Frozen tumor, adjacent and paired-delta scores for all 179 bulk patients",
+    "supplement": "S6",
+    "unit": "patient pair"
+  },
+  "S6_bulk_subseries_counts.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_subseries_counts.tsv"
+    ],
+    "sha256": "429026bb71f954cbe218b10add9d0398657ba7e50aefc4c7ff78890ad98ff58f",
+    "rows": 2,
+    "columns": 2,
+    "role": "Explicit 60/119-pair source-subseries denominators",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_clinical_endpoints.tsv": {
+    "files": [
+      "results/tables/tissue_rna/clinical_endpoints.tsv"
+    ],
+    "sha256": "e649c9cfd2912205107d23f5ed4e29805b4d4417a72da710b10c713eacfeb0aa",
+    "rows": 28,
+    "columns": 12,
+    "role": "All 21 grade/TNM/N tests and seven unavailable metastasis tests",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_complete_pathology_family_sensitivity.tsv": {
+    "files": [
+      "results/tables/tissue_rna/complete_pathology_family_sensitivity.tsv"
+    ],
+    "sha256": "3a845c8213980997bf4d635e3bbc63bbb92935906ae052a077a6e444228c3d51",
+    "rows": 14,
+    "columns": 17,
+    "role": "Historical BH5/BH2 and complete seven-program pathology sensitivity",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_context_gene_sets.tsv": {
+    "files": [
+      "data/metadata/tissue_rna/context_gene_sets.tsv"
+    ],
+    "sha256": "3e64e957ff03086e8e39b1a1d4bd93618ddb2afb3484d973f4a5c0c3654bfcb8",
+    "rows": 63,
+    "columns": 4,
+    "role": "Tissue-context members after the frozen signature-overlap exclusion rule",
+    "supplement": "S6",
+    "unit": "context/gene set"
+  },
+  "S6_fitted_state_model_diagnostics.tsv": {
+    "files": [
+      "results/tables/tissue_rna/fitted_state_model_diagnostics.tsv"
+    ],
+    "sha256": "a68baf0f387418b76051035499d11fde3b487a8b70802a4114aa860bfc0b46e1",
+    "rows": 14,
+    "columns": 28,
+    "role": "Convergence, fallback and warning records for every ordered-state model",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_LOPO_state_slopes.tsv": {
+    "files": [
+      "results/tables/tissue_rna/LOPO_state_slopes.tsv"
+    ],
+    "sha256": "e2197093c135e111380d6389b0742206114707dd0a9535183b3a1235ea259537",
+    "rows": 196,
+    "columns": 10,
+    "role": "All leave-one-patient-out pathology slope estimates and direction checks",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_ordered_state_models.tsv": {
+    "files": [
+      "results/tables/tissue_rna/ordered_state_models.tsv"
+    ],
+    "sha256": "dc7c76e74fb171b8787773b09af5f7ee00b1cfd23336751b01ff94cfa6f37d0f",
+    "rows": 14,
+    "columns": 17,
+    "role": "All ordered pathology slopes, intervals, permutation P and separate test families",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_OS_Cox_models.tsv": {
+    "files": [
+      "results/tables/tissue_rna/OS_Cox_models.tsv"
+    ],
+    "sha256": "acfebc01e975d44e22ab1aa03d1341450f14704adf00a40525bc16b415b599f0",
+    "rows": 14,
+    "columns": 15,
+    "role": "All seven univariable and seven adjusted Cox models, including non-significant results",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_paired_state_contrasts.tsv": {
+    "files": [
+      "results/tables/tissue_rna/paired_state_contrasts.tsv"
+    ],
+    "sha256": "4e965bf6ffc663f19c0cd62a509c7f48fb122e794601cd081983cd7dbf508434",
+    "rows": 42,
+    "columns": 17,
+    "role": "All paired histological-state median contrasts and uncertainty",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S6_patient_state_scores.tsv": {
+    "files": [
+      "data/processed/tissue_rna/patient_state_scores.tsv"
+    ],
+    "sha256": "3d7320852c6cfb8e80da48ecbdba27bbd36ca7002dab0772c9eebc99780a1d86",
+    "rows": 476,
+    "columns": 10,
+    "role": "Patient-state signature scores and cell counts underlying the 34 histology observations",
+    "supplement": "S6",
+    "unit": "patient/state/program"
+  },
+  "S6_state_counts.tsv": {
+    "files": [
+      "results/tables/tissue_rna/state_counts.tsv"
+    ],
+    "sha256": "6d67e2a37105d4bd610d46061fb040d6c0acc5171ed0bb21399102f0e576692d",
+    "rows": 3,
+    "columns": 3,
+    "role": "Patient-state denominators for the 34-observation histology analysis",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "S7_cross_cohort_gene_concordance.tsv": {
+    "files": [
+      "results/tables/proteomics/cross_cohort_gene_concordance.tsv"
+    ],
+    "sha256": "f798a6ae4f36601026fb81c0f28f7390cfbfbd240d636dabd6e4ef0fdf12fe33",
+    "rows": 28,
+    "columns": 10,
+    "role": "Common-gene effect concordance across the two proteomic cohorts and eligibility scopes",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "S7_cross_cohort_gene_effects.tsv": {
+    "files": [
+      "results/tables/proteomics/cross_cohort_gene_effects.tsv"
+    ],
+    "sha256": "7f6b5f3c8078764b3cb51d921e0063d9ac96be0112c45785e66e730bbbbbcb61",
+    "rows": 230,
+    "columns": 20,
+    "role": "Per-gene paired effects, availability and fixed80 membership in both cohorts",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "S7_Liu_gene_effects.tsv": {
+    "files": [
+      "results/tables/proteomics/Liu_gene_effects.tsv"
+    ],
+    "sha256": "9f196ff3c5ad265b95c3f6d8d21aeac9c0f807b6787d6cf790f58eb2c20b0fbe",
+    "rows": 1050,
+    "columns": 33,
+    "role": "All primary-cohort member effects supporting positive/negative direction and DCI",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "S7_Liu_mixed_directions.tsv": {
+    "files": [
+      "results/tables/proteomics/Liu_mixed_directions.tsv"
+    ],
+    "sha256": "0bfb4330a1d8b84091a2fb5cc7737767e226df80a0b2462858a74d993aa4ae82",
+    "rows": 28,
+    "columns": 48,
+    "role": "Program-level member direction, cancellation and coverage summaries",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "S7_paired_proteomic_scores.tsv": {
+    "files": [
+      "data/processed/proteomics/paired_proteomic_scores.tsv"
+    ],
+    "sha256": "64e6273725c98b9a44571d6e4645ba3be338e9f09b6232a1581f6d1c7b2a3b2a",
+    "rows": 1736,
+    "columns": 8,
+    "role": "All primary-cohort patient-pair signature deltas used to reconstruct paired dz",
+    "supplement": "S7",
+    "unit": "patient pair/program/size"
+  },
+  "S7_proteomic_contrasts.tsv": {
+    "files": [
+      "results/tables/proteomics/proteomic_contrasts.tsv"
+    ],
+    "sha256": "5fbe160173e4557d025b2173eb795f4c7714ce53f322c38addb61db00de3f3e3",
+    "rows": 21,
+    "columns": 18,
+    "role": "All primary paired protein effects, intervals, direct tests and matched-background families",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "S7_Zhao_gene_results.tsv": {
+    "files": [
+      "results/tables/proteomics/Zhao_gene_results.tsv"
+    ],
+    "sha256": "bd8a73fcbb3179011dd28d44abd73f163e9817a7df85e6f76e369757164db843",
+    "rows": 1050,
+    "columns": 18,
+    "role": "Second-cohort member-level protein/RNA measurements and paired effects",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "S7_Zhao_program_coverage.tsv": {
+    "files": [
+      "results/tables/proteomics/Zhao_program_coverage.tsv"
+    ],
+    "sha256": "a96eff75fac4a5fe5427e0d8670bb9e06fbad9b79e51679a219aaed0c81cd19f",
+    "rows": 14,
+    "columns": 27,
+    "role": "Second-cohort coverage and actual RNA\u2013protein concordance results for both sizes",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "S8_PDO_day15_exact.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_day15_exact.tsv"
+    ],
+    "sha256": "6fbf127519833db1a03d7b3e815d03f37edc32faede9acd7e060bd8081fd0c49",
+    "rows": 56,
+    "columns": 13,
+    "role": "All exact fixed-dose Day-15 tests by drug, 9/12-model scope and signature size",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "S8_PDO_day15_membership_scores.tsv": {
+    "files": [
+      "data/processed/pdo/day15_membership_scores.tsv"
+    ],
+    "sha256": "c505399c299ab86eced9ec2b67e2d6b53a4eed590aea7a346adee8db6a58ff7b",
+    "rows": 15,
+    "columns": 27,
+    "role": "AUC/Day-15 model union with endpoint availability and frozen scores",
+    "supplement": "S8",
+    "unit": "PDO/endpoint"
+  },
+  "S8_PDO_day15_source_wells.tsv": {
+    "files": [
+      "data/processed/pdo/day15_source_wells.tsv"
+    ],
+    "sha256": "a41305057d0726ee1bd841f6fc9327bd97c57f45b71a4017bf4d457a7631aa9e",
+    "rows": 144,
+    "columns": 4,
+    "role": "Published Day-15 fixed-dose assay replicates",
+    "supplement": "S8",
+    "unit": "PDO/drug/well"
+  },
+  "S8_PDO_exact_results.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_exact_results.tsv"
+    ],
+    "sha256": "3aef7a86a5a68f942149daac1b9c77ff9c7b651eabbd3da0e91763a458f23e86",
+    "rows": 120,
+    "columns": 19,
+    "role": "All seven-program and canonical-control exact AUC tests, with explicit families and negatives",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "S8_PDO_IFN_incremental.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_IFN_incremental.tsv"
+    ],
+    "sha256": "1f8945521062b56fcf58e75a8cb7830c057d919f5e8997b2ddfbc8ed0234f7af",
+    "rows": 12,
+    "columns": 18,
+    "role": "Canonical IFN-reference and incremental-association sensitivity results",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "S8_PDO_patient_and_batch.tsv": {
+    "files": [
+      "data/metadata/pdo/patient_and_batch.tsv"
+    ],
+    "sha256": "3bda74e4ed50c31c9f5a6bd266b31a0d51c8747acb4e71c5cbc4299bda3ed186",
+    "rows": 10,
+    "columns": 10,
+    "role": "Published PDO-source and assay/batch provenance; unavailable fields remain explicit",
+    "supplement": "S8",
+    "unit": "PDO"
+  },
+  "S8_PDO_public_dose_wells.tsv": {
+    "files": [
+      "data/processed/pdo/dose_wells.tsv"
+    ],
+    "sha256": "80897e71a4b3b73922812159ba2303c3ed89fe95f9688e625d03dd7e9fb5e8c0",
+    "rows": 240,
+    "columns": 5,
+    "role": "Published dose/replicate viability wells used for the AUC reintegration audit",
+    "supplement": "S8",
+    "unit": "PDO/dose/well"
+  },
+  "S8_PDO_robustness_L2O.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_robustness_L2O.tsv"
+    ],
+    "sha256": "1d5aacfbb14ed0ff79409e42ebd4f57416e0b6616ba398de35f477ce750b5a9f",
+    "rows": 180,
+    "columns": 12,
+    "role": "All 45 C07 two-PDO deletions per signature size",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "S8_PDO_robustness_LOO.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_robustness_LOO.tsv"
+    ],
+    "sha256": "6b5470a5ffdccc22f6137d8d1191152b4c5df7f345b0332d07797416a0795ed1",
+    "rows": 200,
+    "columns": 14,
+    "role": "All single-PDO deletions and corrected seven-program results",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "S8_PDO_robustness_WT_LOO.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_robustness_WT_LOO.tsv"
+    ],
+    "sha256": "8cdc196ac1b67cda510c9e68a7b07d10f6537b7f38b2f5332bd847baa2094096",
+    "rows": 160,
+    "columns": 13,
+    "role": "Nested NRF2-wild-type single-deletion sensitivity",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "S8_PDO_scores_endpoints.tsv": {
+    "files": [
+      "data/processed/pdo/scores_endpoints.tsv"
+    ],
+    "sha256": "3a30b6494b81ce7d511ef2955c1c993b72786c39f126344644d85f51acd73e03",
+    "rows": 10,
+    "columns": 58,
+    "role": "Ten PDO frozen signature/control scores, author AUC and re-integrated AUC",
+    "supplement": "S8",
+    "unit": "PDO"
+  },
+  "S8_PDO_standard_control_gene_membership.tsv": {
+    "files": [
+      "data/metadata/pdo/control_gene_membership.tsv"
+    ],
+    "sha256": "844b9cf5de619db444353670cdf6ffe7e5d3eb9a85ab2afcb027f9d9c07a8288",
+    "rows": 571,
+    "columns": 3,
+    "role": "Exact canonical IFN/NRF2 control members and detected membership",
+    "supplement": "S8",
+    "unit": "control/gene"
+  },
+  "S9_overlap_gene_background.tsv": {
+    "files": [
+      "data/metadata/reference_programs/measured_background.tsv"
+    ],
+    "sha256": "d7de7aba09791d48c365e6aca8854679ae891da6509cb98274435c68b1bd6d1c",
+    "rows": 16131,
+    "columns": 1,
+    "role": "Complete 16131-gene measured background for Zhang/Gavish overlap tests",
+    "supplement": "S9",
+    "unit": "gene"
+  },
+  "S9_published_program_overlap.tsv": {
+    "files": [
+      "results/tables/reference_programs/published_program_overlap.tsv"
+    ],
+    "sha256": "aed154e2d2cfe13167f23ddc7222d15d2b44e1e4ceb662b8c1a774344b878987",
+    "rows": 686,
+    "columns": 24,
+    "role": "Complete Zhang/Gavish reference-program overlaps and multiplicity-adjusted results",
+    "supplement": "S9",
+    "unit": "reference_programs"
+  },
+  "discovery/GSE160269/cell_program_usage_normalized.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/cell_program_usage_normalized.tsv"
+    ],
+    "sha256": "6dce0667e7c395b23a58aec4c3910c90805b4569222511ceb553f383e1eacfa8",
+    "rows": 44547,
+    "columns": 11,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/cell_source_labels.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/cell_source_labels.tsv"
+    ],
+    "sha256": "695a515af146c42bae98aa4bb4ad179a8a16f1ac1c4e6289406cae4a08145968",
+    "rows": 44547,
+    "columns": 3,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/density_threshold_audit.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/density_threshold_audit.tsv"
+    ],
+    "sha256": "0a50510b6c016d9647896dc52d475bfccdc59eb2224c0864813167cad6d7c82e",
+    "rows": 3,
+    "columns": 8,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/exact_configuration.json": {
+    "files": [
+      "data/processed/discovery/GSE160269/exact_configuration.json"
+    ],
+    "sha256": "38905a55f94de73bd557377c12412e71050427a0c9c963dd352f54226b6e93df",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/formal_cnmf_metrics.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/formal_cnmf_metrics.tsv"
+    ],
+    "sha256": "1ffcffd07877223798ff197993ba4e09bb01fe8e89768f358976b588f5d3bc55",
+    "rows": 1,
+    "columns": 18,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/gene_program_scores.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/gene_program_scores.tsv"
+    ],
+    "sha256": "52ddd5b3486e4380c6530672a44de2d2ac9ed92ec6e50afbc3b319b870dc1b24",
+    "rows": 17012,
+    "columns": 11,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/gene_program_spectra.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/gene_program_spectra.tsv"
+    ],
+    "sha256": "6f529ab0feb0378763aa24b09e17514cc4a883fe73d4708fcd3670737f07c19f",
+    "rows": 17012,
+    "columns": 11,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/gene_symbol_map.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/gene_symbol_map.tsv"
+    ],
+    "sha256": "59aa0741f0b0bb191a959bda9ffd5b1e28c3787788892848966346d9bf8c76c7",
+    "rows": 17012,
+    "columns": 2,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE160269/program_qc_flags.tsv": {
+    "files": [
+      "data/processed/discovery/GSE160269/program_qc_flags.tsv"
+    ],
+    "sha256": "a3f3c0ffe5dd4845d7471cef207973b91d387282ee378803608b57594115869e",
+    "rows": 10,
+    "columns": 15,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/cell_program_usage_normalized.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/cell_program_usage_normalized.tsv"
+    ],
+    "sha256": "06f6c2eb169d843e60dff1be14cf04b9eb7888bf45077f98bc04f443bc4bdfb9",
+    "rows": 6801,
+    "columns": 9,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/cell_source_labels.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/cell_source_labels.tsv"
+    ],
+    "sha256": "c31f0a6487870f26884cb469cd28b20007dbd332f124ed2a4b11b189a147e1d0",
+    "rows": 6801,
+    "columns": 3,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/density_threshold_audit.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/density_threshold_audit.tsv"
+    ],
+    "sha256": "041dc797239b1b1909512d352b67be0876c82a47d66080b7a43adc948cfbd4f8",
+    "rows": 3,
+    "columns": 8,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/exact_configuration.json": {
+    "files": [
+      "data/processed/discovery/GSE188900/exact_configuration.json"
+    ],
+    "sha256": "b8961fc89d6f76e3cdc158ca00f42951ecd1589a641ef31870e8f890a1edccc4",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/formal_cnmf_metrics.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/formal_cnmf_metrics.tsv"
+    ],
+    "sha256": "bbe72b114fa4b334f40d3292541f60b5f2221729e52c518d8f799b6736e8e914",
+    "rows": 1,
+    "columns": 18,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/gene_program_scores.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/gene_program_scores.tsv"
+    ],
+    "sha256": "eab2b96037be51fae2e78280442b0a560785a63f10f544620a831b6680cadf9b",
+    "rows": 32738,
+    "columns": 9,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/gene_program_spectra.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/gene_program_spectra.tsv"
+    ],
+    "sha256": "3ae5eea6bf0fce894a0a5ec6f53e4a5aad1741cfdae793dfe157af2bdd193b67",
+    "rows": 32738,
+    "columns": 9,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/gene_symbol_map.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/gene_symbol_map.tsv"
+    ],
+    "sha256": "1e043823c13f6d366cc0aff82e02a3586c998b950679d06cc932d4ffefa2eba6",
+    "rows": 32738,
+    "columns": 2,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/GSE188900/program_qc_flags.tsv": {
+    "files": [
+      "data/processed/discovery/GSE188900/program_qc_flags.tsv"
+    ],
+    "sha256": "edad3dd4b25bafecbfa0ab572eeb8ea7a9cc22e9ebe96e6b4b841a1752c30adf",
+    "rows": 8,
+    "columns": 15,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "discovery/k_selection_metrics.tsv": {
+    "files": [
+      "data/processed/discovery/k_selection_metrics.tsv"
+    ],
+    "sha256": "a5806b0248cc09cce0ea0bc37303017d10dc3a21012b389e9ef970ce432e1995",
+    "rows": 18,
+    "columns": 20,
+    "role": "Frozen cNMF matrix, QC diagnostic or deidentified source metadata",
+    "supplement": "S1;S2;S3",
+    "unit": "cell, gene or fitted component"
+  },
+  "second_proteome/concordance.tsv": {
+    "files": [
+      "data/processed/second_proteome/concordance.tsv"
+    ],
+    "sha256": "7dac85f89f2bb1a88ebbb0e752b9e048538b5bb79f367ed62bf9825918c98888",
+    "rows": 42,
+    "columns": 24,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "second_proteome/coverage.tsv": {
+    "files": [
+      "data/processed/second_proteome/coverage.tsv"
+    ],
+    "sha256": "b15a9a51bd82859809728c71ffe4632e3d866a94dbad0b53f7629ed5ddd0968d",
+    "rows": 14,
+    "columns": 9,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "second_proteome/lopo.tsv": {
+    "files": [
+      "data/processed/second_proteome/lopo.tsv"
+    ],
+    "sha256": "79be87055c45ae6e7fb2cf992833b75638622091d4197f233285d2d722a88de2",
+    "rows": 2436,
+    "columns": 5,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "second_proteome/matched_null_design.tsv": {
+    "files": [
+      "data/processed/second_proteome/matched_null_design.tsv"
+    ],
+    "sha256": "b20b2cd7ca9c9122beddf7fff600fe20b908a63b10c8232cc1abd3bd8ae78f09",
+    "rows": 270,
+    "columns": 6,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "second_proteome/matched_null_draws.tsv": {
+    "files": [
+      "data/processed/second_proteome/matched_null_draws.tsv"
+    ],
+    "sha256": "a518e7a8819a05af8a817925931f5b7bcc6d4e6427d0fd2ee955b45bd642e077",
+    "rows": 28000,
+    "columns": 6,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "second_proteome/matched_null_gene_features.tsv": {
+    "files": [
+      "data/processed/second_proteome/matched_null_gene_features.tsv"
+    ],
+    "sha256": "a6a5134d51fc89441c0bdb3649fd1f9d8f7746ffac4745be20d8bd10002826a6",
+    "rows": 19751,
+    "columns": 7,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "second_proteome/patient_scores.tsv": {
+    "files": [
+      "data/processed/second_proteome/patient_scores.tsv"
+    ],
+    "sha256": "24747adcd82ca315c684bd0e93e7aba450eff7334f0f9856a8b24796810ee478",
+    "rows": 1680,
+    "columns": 7,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "second_proteome/sensitivity.tsv": {
+    "files": [
+      "data/processed/second_proteome/sensitivity.tsv"
+    ],
+    "sha256": "d243b1f3213a65ad2565cfd71dd7dd6b816e1043e56168ca67614009070a4d0c",
+    "rows": 112,
+    "columns": 8,
+    "role": "Actual 57-pair second-cohort RNA/protein analysis inputs and outputs",
+    "supplement": "S7",
+    "unit": "patient, gene or matched set"
+  },
+  "consensus_rank_all_genes.tsv": {
+    "files": [
+      "data/processed/signatures/consensus_rank_all_genes.tsv"
+    ],
+    "sha256": "1a174a6de681a0bf26b1eb531efd4b098590d596fe38e3e974482f0ee81460d3",
+    "rows": 113001,
+    "columns": 13,
+    "role": "Frozen full-gene ranking for independent signature construction and enrichment",
+    "supplement": "S2",
+    "unit": "gene/program"
+  },
+  "context_gene_sets_original.tsv": {
+    "files": [
+      "data/metadata/context_gene_sets_original.tsv"
+    ],
+    "sha256": "ac7b88f0bc969358b936b8a9beb61c756cc943fd094a381f6812cc7629e77f84",
+    "rows": 63,
+    "columns": 4,
+    "role": "Original tissue-context definitions before signature-overlap removal",
+    "supplement": "S6",
+    "unit": "gene set"
+  },
+  "RMP_C01_signature_top100.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C01_signature_top100.txt"
+    ],
+    "sha256": "33dfc36891d823adcdd949363be0ea6d17f2369d73544c356c7aa633e0d0e572",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C01_signature_top50.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C01_signature_top50.txt"
+    ],
+    "sha256": "9a6bda11bfe83300f43396531ef356a7f9d66fc41388685e46f6c57f4593483c",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C02_signature_top100.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C02_signature_top100.txt"
+    ],
+    "sha256": "6376a19eb77b1d06133353a97b1e2e93146060b9d2070b2d5330e645dab3115b",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C02_signature_top50.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C02_signature_top50.txt"
+    ],
+    "sha256": "b087abaf9504a70604698ac88f8576814536781e7f051bd343f40e97e04d5aeb",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C03_signature_top100.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C03_signature_top100.txt"
+    ],
+    "sha256": "51a3c5ce2b738ea6c28768b54892f8eb551b69b4d46e4fe9babed8f845489bb4",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C03_signature_top50.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C03_signature_top50.txt"
+    ],
+    "sha256": "302dd36925018d1e843c0333d2921063116cba24f8af69a7bb843ee78b4e86e2",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C04_signature_top100.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C04_signature_top100.txt"
+    ],
+    "sha256": "6b7704039a02672ed8044ed5f1a15d9913bde7ae0cf447e48f29ba9e42bf7524",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C04_signature_top50.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C04_signature_top50.txt"
+    ],
+    "sha256": "a455a4ca6bde9dc4c68b250c60f6c27821f857ee263d5f7e438fd77826960207",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C05_signature_top100.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C05_signature_top100.txt"
+    ],
+    "sha256": "f2398944ccd60c6f1ead69fd23c3e98960b194eedc4bb493c654b32d959eeb2c",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C05_signature_top50.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C05_signature_top50.txt"
+    ],
+    "sha256": "268316edfa7fd337e23d5ff4b5eda07bbd589129db3481d9120a4947125a7095",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C06_signature_top100.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C06_signature_top100.txt"
+    ],
+    "sha256": "e5f281dfc6b0681d6f73aa14fb1896aa058adb5d6b9f6df2e69d516cceeec67d",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C06_signature_top50.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C06_signature_top50.txt"
+    ],
+    "sha256": "a9b490e952e56a5ee72688d754fbb5834425df14d8508f3109750891d2f3a3e7",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C07_signature_top100.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C07_signature_top100.txt"
+    ],
+    "sha256": "6ae0af3c3992edc42ba68d9c40fe8b873f90b8b8da5042717bdb052766cf9dc9",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "RMP_C07_signature_top50.txt": {
+    "files": [
+      "data/processed/signatures/RMP_C07_signature_top50.txt"
+    ],
+    "sha256": "75d9f527f1619f35cb2eebcfdb0f329ac0d74b55eb7103f689a7102378e6a03a",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen ordered gene signature",
+    "supplement": "S2",
+    "unit": "gene"
+  },
+  "anonymous_records.json": {
+    "files": [
+      "data/metadata/evidence/anonymous_records.json"
+    ],
+    "sha256": "99ebbf28cba07711e0c80d89db55f79a771e0eb40d5f0e50b4abbf0d21543e74",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen rule inputs for deterministic classification and sensitivity reconstruction",
+    "supplement": "S5;S10",
+    "unit": "program/signature/cohort"
+  },
+  "anonymous_QC_records.json": {
+    "files": [
+      "data/metadata/evidence/anonymous_QC_records.json"
+    ],
+    "sha256": "ad061765ce05aaecb5119ed7c7b66a7b4fd0ab3a2a333d00e516b3c4a8834d08",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen rule inputs for deterministic classification and sensitivity reconstruction",
+    "supplement": "S5;S10",
+    "unit": "program/signature/cohort"
+  },
+  "IDENTITY_KEY.tsv": {
+    "files": [
+      "data/metadata/evidence/IDENTITY_KEY.tsv"
+    ],
+    "sha256": "f7b1f8f52f2a492ab979691c71affa45a8c6f991c0bbd8424a5e9f7290b3035d",
+    "rows": 7,
+    "columns": 3,
+    "role": "Frozen rule inputs for deterministic classification and sensitivity reconstruction",
+    "supplement": "S5;S10",
+    "unit": "program/signature/cohort"
+  },
+  "E1_RULES_CONFIG.json": {
+    "files": [
+      "data/metadata/evidence/frozen_rule_parameters.json"
+    ],
+    "sha256": "de662d6f82840b03e4d9d78c9bf5d1a6db56cbdc6ebca7f0902e64554e35b32e",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen deterministic rule parameters",
+    "supplement": "S5;S10",
+    "unit": ""
+  },
+  "S10_final_rules.json": {
+    "files": [
+      "data/metadata/evidence/claim_rule_parameters.json"
+    ],
+    "sha256": "ef1379435ea4fd717a7bc54ee3fe4897252157c9d6fa3c68e2c341e8a84b69ee",
+    "rows": "",
+    "columns": "",
+    "role": "Claim-conditioned evaluability and testing parameters",
+    "supplement": "S10",
+    "unit": ""
+  },
+  "current_parameters.json": {
+    "files": [
+      "data/metadata/current_parameters.json"
+    ],
+    "sha256": "a3389ce21ff6d052e0a3d43340ea583a61237e49476e43b5edd413f2758fa52d",
+    "rows": "",
+    "columns": "",
+    "role": "Current methods, software and seeds",
+    "supplement": "M1-M8",
+    "unit": ""
+  },
+  "cross_cohort_matching.json": {
+    "files": [
+      "data/metadata/config/cross_cohort_matching.json"
+    ],
+    "sha256": "5af21c3579722c32ff705a6566392b2bd0c137337dca95096ce907ab6ac15c21",
+    "rows": "",
+    "columns": "",
+    "role": "Original generating-analysis configuration",
+    "supplement": "M1-M8",
+    "unit": ""
+  },
+  "external_reproducibility.json": {
+    "files": [
+      "data/metadata/config/external_reproducibility.json"
+    ],
+    "sha256": "b80cce4526e075cc9b21abd950ddc2726224b49f5f97e89f89a6b507da13962e",
+    "rows": "",
+    "columns": "",
+    "role": "Original generating-analysis configuration",
+    "supplement": "M1-M8",
+    "unit": ""
+  },
+  "frozen_rmp_construction.json": {
+    "files": [
+      "data/metadata/config/frozen_rmp_construction.json"
+    ],
+    "sha256": "aaf5293cc9eb8074a5e25a68319dbe6a15d6a4b3aefd7a28de25d679e4e01b67",
+    "rows": "",
+    "columns": "",
+    "role": "Original generating-analysis configuration",
+    "supplement": "M1-M8",
+    "unit": ""
+  },
+  "pathological_states.json": {
+    "files": [
+      "data/metadata/config/pathological_states.json"
+    ],
+    "sha256": "3b05cf7f0180b15fb5b414e699da339a5161efa90f4a027e79448628e6a16ea6",
+    "rows": "",
+    "columns": "",
+    "role": "Original generating-analysis configuration",
+    "supplement": "M1-M8",
+    "unit": ""
+  },
+  "pdo_drug_response.json": {
+    "files": [
+      "data/metadata/config/pdo_drug_response.json"
+    ],
+    "sha256": "1cccfe5c5e3b497cac057044d7492534e26fe80b001971abaddc53440b6d46e4",
+    "rows": "",
+    "columns": "",
+    "role": "Original generating-analysis configuration",
+    "supplement": "M1-M8",
+    "unit": ""
+  },
+  "controlled_Q_claims_by_world.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_Q_claims_by_world.tsv"
+    ],
+    "sha256": "335d56b02d7f75a387660b73765fb441aa7f80bd02d33d572135333ec8150f0e",
+    "rows": 20160,
+    "columns": 51,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_sensitivity_depth_pairs.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_sensitivity_depth_pairs.tsv"
+    ],
+    "sha256": "2e1e26743a7fda97258c2a86e661b3c92ef61bc16bb903e8cc5615818bbdb249",
+    "rows": 1680,
+    "columns": 9,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_sensitivity_depth_predictiveness.tsv": {
+    "files": [
+      "results/tables/evidence/controlled_sensitivity_depth_predictiveness.tsv"
+    ],
+    "sha256": "27464f06b89aa5dab4708c374f54ce1b23e03f3b5c17ea0bea7d6b23513ae4c9",
+    "rows": 3,
+    "columns": 10,
+    "role": "Paired 1x/4x world-level sensitivity rates and uncertainty",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "real_Q_claims_by_spec.tsv": {
+    "files": [
+      "results/tables/evidence/real_Q_claims_by_spec.tsv"
+    ],
+    "sha256": "00c55be00dd1b303de9b31061ae55d1b015f3de5ee99842d2085e9c28e51f042",
+    "rows": 252,
+    "columns": 31,
+    "role": "All 252 cohort/program/size/measurement specifications with Q and PC states",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "real_patient_measurements.tsv": {
+    "files": [
+      "data/processed/external_rna/patient_measurements.tsv"
+    ],
+    "sha256": "1003b118fbe6654b7ea2a88b4b394b4b8124932f3ef1f433affec80442743008",
+    "rows": 1512,
+    "columns": 12,
+    "role": "All 1512 patient measurements across the nine rank/background specifications",
+    "supplement": "S4;S10",
+    "unit": "patient/signature/specification"
+  },
+  "seven_RMP_profiles.tsv": {
+    "files": [
+      "results/tables/evidence/seven_RMP_profiles.tsv"
+    ],
+    "sha256": "8afdcf08811d8b00cc80b4c9f5ceecb49f7c7c678d305e7c6798c38719709acb",
+    "rows": 14,
+    "columns": 100,
+    "role": "Frozen reference profile used to check discovery, Q, raw protein and PDO endpoint reconstruction",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "simulated_patient_tails.tsv": {
+    "files": [
+      "data/processed/evidence/simulated_patient_tails.tsv"
+    ],
+    "sha256": "b6b38daeafb92865e8266e1c5888fc73ce63e1008279bfd2839c6897e4ce7403",
+    "rows": 100800,
+    "columns": 13,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_patient_measures.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_patient_measures.tsv"
+    ],
+    "sha256": "e85f7fc18805229d446c0558ebbfde71fd52aae72342a4af1029a58c52143790",
+    "rows": 168000,
+    "columns": 11,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_patient_measures_depth4x.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_patient_measures_depth4x.tsv"
+    ],
+    "sha256": "b10ec6987ccf63713a76313b054da9746f113038d7798ded9a814849c0689554",
+    "rows": 84000,
+    "columns": 11,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_truth.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_truth.tsv"
+    ],
+    "sha256": "d7dc96eebf949e2a8f90b88ca903b4136255ede92366b1eb6fb1156b421814b2",
+    "rows": 47040,
+    "columns": 6,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_truth_depth4x.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_truth_depth4x.tsv"
+    ],
+    "sha256": "cf607c2b7d567e344992681555f84b09e34d8f1d7d8f4ec196ecf25822334ab2",
+    "rows": 23520,
+    "columns": 6,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_world_results.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_world_results.tsv"
+    ],
+    "sha256": "a44ea1828e4d4a4515663908e1ffcc091d3e23bb1ab1e395af4cad79243f60f4",
+    "rows": 33600,
+    "columns": 31,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "controlled_world_results_depth4x.tsv": {
+    "files": [
+      "data/processed/evidence/controlled_world_results_depth4x.tsv"
+    ],
+    "sha256": "5f512adb7d2769ca8d7c4f39c0e15042510351cff5a06cb877ed627a3ebaff03",
+    "rows": 16800,
+    "columns": 31,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "real_q_background_draws.tsv": {
+    "files": [
+      "data/processed/external_rna/real_q_background_draws_part01.tsv",
+      "data/processed/external_rna/real_q_background_draws_part02.tsv",
+      "data/processed/external_rna/real_q_background_draws_part03.tsv"
+    ],
+    "sha256": "e06e1d0c073774b7c654e37f44b951699936e13f3d3a5692fab2301661ef0abd",
+    "rows": 704592,
+    "columns": 7,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "grid_summary.tsv": {
+    "files": [
+      "data/processed/evidence/grid_summary.tsv"
+    ],
+    "sha256": "27c842b8977a4fab1a7eca1282d92d363af89e61aa2b51446aa8bb89f10a0368",
+    "rows": 56,
+    "columns": 18,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "parameter_paths.tsv": {
+    "files": [
+      "data/processed/evidence/parameter_paths.tsv"
+    ],
+    "sha256": "01939a2d053ee30764356fff9d55371818870b93d9892c124e23082d5a1f6466",
+    "rows": 17280,
+    "columns": 11,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "table_B1_grid_reconciliation_exact.tsv": {
+    "files": [
+      "results/tables/evidence/parameter_grid_retention.tsv"
+    ],
+    "sha256": "79ad04a20d37796a2d515a18c35203e39e871924bddc4d65c73544e54ea59488",
+    "rows": 14,
+    "columns": 8,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "table_D_final_7RMP_claim_conditioned_profiles.tsv": {
+    "files": [
+      "data/processed/proteomics/dci_reference.tsv"
+    ],
+    "sha256": "ce8c32d91807ffaa9b30f81750b228e62f3f818355525422d0618c26123f4cb2",
+    "rows": 14,
+    "columns": 3,
+    "role": "Published evidence-framework input or verification reference",
+    "supplement": "S4;S5;S7;S10",
+    "unit": ""
+  },
+  "parameter_grid_summary.tsv": {
+    "files": [
+      "results/tables/evidence/parameter_grid_summary.tsv"
+    ],
+    "sha256": "0c6cd045bba29ea9a88b37cf5e63be2821d48a02bb6ac17bd1a91e61027dc605",
+    "rows": 56,
+    "columns": 8,
+    "role": "Reconstructed full-grid summary verified against the original 967680-row cache",
+    "supplement": "S10",
+    "unit": ""
+  },
+  "condition_summary.tsv": {
+    "files": [
+      "data/processed/figures/condition_summary.tsv"
+    ],
+    "sha256": "4f79870e52276fa399488aa611e8bc4c9a8e8f64264a419c690ef43c320a783f",
+    "rows": 70,
+    "columns": 7,
+    "role": "Direct Figure S8 final model-B threshold/QC family summary, including 17/280 threshold and 6/126 QC changes",
+    "supplement": "S5;S10;FigS8",
+    "unit": "program/signature/prespecified condition family"
+  },
+  "program_profiles.tsv": {
+    "files": [
+      "data/processed/evidence/frozen_program_evidence.tsv"
+    ],
+    "sha256": "f95846ef3209cd9396d43bd18eba9fa4a49986c802ebae347782a91aa888259f",
+    "rows": 14,
+    "columns": 139,
+    "role": "Frozen 14-program/size evidence inputs used by the classifier and claim-evaluation rules",
+    "supplement": "S5;S10",
+    "unit": "program/signature"
+  },
+  "strategy_counts.tsv": {
+    "files": [
+      "data/processed/figures/strategy_counts.tsv"
+    ],
+    "sha256": "88fd8b55cef6828adaf76eac4fe74dbbfa0901be7e5073bc92abd1e67b33a96d",
+    "rows": 8,
+    "columns": 12,
+    "role": "Final figure display/source input",
+    "supplement": "Figures1-9;S1-S13",
+    "unit": "figure panel"
+  },
+  "Fig9_input_data.tsv": {
+    "files": [
+      "data/processed/figures/Fig9_input_data.tsv"
+    ],
+    "sha256": "eeb175ab09cd3db9897463d4e4862243db46082251ad99536381958d6f76115a",
+    "rows": 7,
+    "columns": 41,
+    "role": "Final figure display/source input",
+    "supplement": "Figures1-9;S1-S13",
+    "unit": "figure panel"
+  },
+  "workflow.tsv": {
+    "files": [
+      "data/processed/figures/workflow.tsv"
+    ],
+    "sha256": "2bd8de9b332c6b4b2c7cdd25b96099172ac56842011b9afe52abbce185e64e0c",
+    "rows": 18,
+    "columns": 3,
+    "role": "Final figure display/source input",
+    "supplement": "Figures1-9;S1-S13",
+    "unit": "figure panel"
+  },
+  "grouping_program_metrics.tsv": {
+    "files": [
+      "data/processed/figures/grouping_program_metrics.tsv"
+    ],
+    "sha256": "a2e955e5bdc8d3beec4e9f02103047e337454c0bf625dafc095d37c63a06b94e",
+    "rows": 112,
+    "columns": 20,
+    "role": "Final figure display/source input",
+    "supplement": "Figures1-9;S1-S13",
+    "unit": "figure panel"
+  },
+  "grouping_registry.tsv": {
+    "files": [
+      "data/processed/figures/grouping_registry.tsv"
+    ],
+    "sha256": "15c13c0902998fa35db9f3cc98f58b93ec79ab1f6425e4254c48d070c6438b20",
+    "rows": 16,
+    "columns": 7,
+    "role": "Final figure display/source input",
+    "supplement": "Figures1-9;S1-S13",
+    "unit": "figure panel"
+  },
+  "controlled_claim_operating_characteristics.tsv": {
+    "files": [
+      "results/tables/evidence/controlled_claim_operating_characteristics.tsv"
+    ],
+    "sha256": "68f36ed0c7faca03f287de970f60ef1a41184f00bc7f974b7311545ba2377dca",
+    "rows": 6048,
+    "columns": 15,
+    "role": "Controlled-world operating characteristics, evaluability and power by mechanism and claim",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "controlled_mean_null_family.tsv": {
+    "files": [
+      "results/tables/evidence/controlled_mean_null_family.tsv"
+    ],
+    "sha256": "e2cb464764d6a38de0be19638851f1f526d63204e2022ff48ccd6327d78f5b90",
+    "rows": 36,
+    "columns": 9,
+    "role": "All zero-correlation mean-level null controls, distinct from majority-error claims",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "partial_conjunction_resolution.tsv": {
+    "files": [
+      "results/tables/evidence/partial_conjunction_resolution.tsv"
+    ],
+    "sha256": "b209c50fd66898dd1a253ff3c1e5c604ece2914e7a76cbabcd2678beea984d3e",
+    "rows": 6,
+    "columns": 8,
+    "role": "Finite matched-null resolution limits for PC2/PC8 and multiple-testing thresholds",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "real_legacy_leave_one_summary.tsv": {
+    "files": [
+      "results/tables/evidence/real_legacy_leave_one_summary.tsv"
+    ],
+    "sha256": "37f68c479999dc9994f90838b8067a85a9fd4c480a88bfe8c01b89a948de7608",
+    "rows": 14,
+    "columns": 4,
+    "role": "Leave-one-patient changes to the historical/reference Q support statements",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "table_A3_P_coverage_subsampling_stability.tsv": {
+    "files": [
+      "results/tables/evidence/table_A3_P_coverage_subsampling_stability.tsv"
+    ],
+    "sha256": "a1287396e173e4fa44720018410774cbfab91ed8aa7b81e32370e1f56722c659",
+    "rows": 83,
+    "columns": 19,
+    "role": "Measured-protein subset resampling used to assess the C03 Top100 coverage boundary",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "A_GSE160269_fit_sample_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE160269_lineage.tsv"
+    ],
+    "sha256": "2164c3fc15690d68cac262d5b4d11f1dce4ad4af5b4bcc04590457adf4368769",
+    "rows": 60,
+    "columns": 6,
+    "role": "GSE160269 discovery-input lineage and source-unit reconciliation",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "A_GSE188900_fit_sample_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE188900_lineage.tsv"
+    ],
+    "sha256": "99824dbb2666fd262cf886a2984bb919a0caeefc230b2bd1e8dd2611e9570782",
+    "rows": 7,
+    "columns": 6,
+    "role": "GSE188900 discovery-input lineage under the retained six-patient grouping",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "B_between_cohort_gene_scope.tsv": {
+    "files": [
+      "results/tables/proteomics/cross_cohort_gene_concordance.tsv"
+    ],
+    "sha256": "f798a6ae4f36601026fb81c0f28f7390cfbfbd240d636dabd6e4ef0fdf12fe33",
+    "rows": 28,
+    "columns": 10,
+    "role": "Common-gene effect concordance across the two proteomic cohorts and eligibility scopes",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "B_between_cohort_gene_values.tsv": {
+    "files": [
+      "results/tables/proteomics/cross_cohort_gene_effects.tsv"
+    ],
+    "sha256": "7f6b5f3c8078764b3cb51d921e0063d9ac96be0112c45785e66e730bbbbbcb61",
+    "rows": 230,
+    "columns": 20,
+    "role": "Per-gene paired effects, availability and fixed80 membership in both cohorts",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "C_all15_scores_and_endpoints.tsv": {
+    "files": [
+      "data/processed/pdo/day15_membership_scores.tsv"
+    ],
+    "sha256": "c505399c299ab86eced9ec2b67e2d6b53a4eed590aea7a346adee8db6a58ff7b",
+    "rows": 15,
+    "columns": 27,
+    "role": "AUC/Day-15 model union with endpoint availability and frozen scores",
+    "supplement": "S8",
+    "unit": "PDO/endpoint"
+  },
+  "C_day15_seven_program_diagnostic.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_day15_exact.tsv"
+    ],
+    "sha256": "6fbf127519833db1a03d7b3e815d03f37edc32faede9acd7e060bd8081fd0c49",
+    "rows": 56,
+    "columns": 13,
+    "role": "All exact fixed-dose Day-15 tests by drug, 9/12-model scope and signature size",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "C_day15_source_wells.tsv": {
+    "files": [
+      "data/processed/pdo/day15_source_wells.tsv"
+    ],
+    "sha256": "a41305057d0726ee1bd841f6fc9327bd97c57f45b71a4017bf4d457a7631aa9e",
+    "rows": 144,
+    "columns": 4,
+    "role": "Published Day-15 fixed-dose assay replicates",
+    "supplement": "S8",
+    "unit": "PDO/drug/well"
+  },
+  "GSE160269_fit_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE160269_lineage.tsv"
+    ],
+    "sha256": "2164c3fc15690d68cac262d5b4d11f1dce4ad4af5b4bcc04590457adf4368769",
+    "rows": 60,
+    "columns": 6,
+    "role": "GSE160269 discovery-input lineage and source-unit reconciliation",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "GSE188900_fit_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE188900_lineage.tsv"
+    ],
+    "sha256": "99824dbb2666fd262cf886a2984bb919a0caeefc230b2bd1e8dd2611e9570782",
+    "rows": 7,
+    "columns": 6,
+    "role": "GSE188900 discovery-input lineage under the retained six-patient grouping",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "technical_conditions.tsv": {
+    "files": [
+      "results/tables/evidence/TECHNICAL_CONDITION_SOURCE_DATA.tsv"
+    ],
+    "sha256": "90c275283ac6c116d471d630d6c961f2f3748ee4c50d940c5700e54450a0b5d6",
+    "rows": 98,
+    "columns": 43,
+    "role": "Fixed technical-condition repeat records used in the final framework figure",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "FigS9_c.tsv": {
+    "files": [
+      "results/tables/evidence/controlled_sensitivity_depth_predictiveness.tsv"
+    ],
+    "sha256": "27464f06b89aa5dab4708c374f54ce1b23e03f3b5c17ea0bea7d6b23513ae4c9",
+    "rows": 3,
+    "columns": 10,
+    "role": "Paired 1x/4x world-level sensitivity rates and uncertainty",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "cohort_cell_counts.tsv": {
+    "files": [
+      "results/tables/quality/cnmf_input_cell_counts.tsv"
+    ],
+    "sha256": "dc0f80088e175e129d4e90ca3483f6d95b2fe472fc400a590b7108c3a23bb3da",
+    "rows": 69,
+    "columns": 4,
+    "role": "Actual per-source cell counts entering each independent cNMF fit",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "formal_cnmf.tsv": {
+    "files": [
+      "results/tables/discovery/formal_cnmf.tsv"
+    ],
+    "sha256": "37bc6e19626ab2f30f67816808553b4667696ef1bd429e4b4c1f13d312adce41",
+    "rows": 3,
+    "columns": 18,
+    "role": "Selected ranks, fit completion and retained component-spectrum diagnostics",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "bounded_donor_sensitivity.tsv": {
+    "files": [
+      "results/tables/quality/bounded_donor_sensitivity.tsv"
+    ],
+    "sha256": "ea89b323e280880b2b92f270c370e0a6d96538dc83fb878ce30195a95446974f",
+    "rows": 7,
+    "columns": 17,
+    "role": "RAW/EQUAL maxima and warning frequencies across the reference grouping plus 15 pair merges",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "candidate_rank_diagnostics.tsv": {
+    "files": [
+      "results/tables/discovery/candidate_rank_diagnostics.tsv"
+    ],
+    "sha256": "f41f16c4feb9775a920c277e7eee9dca7b216be7931ea25f4f81dc62d7c1c751",
+    "rows": 18,
+    "columns": 18,
+    "role": "Silhouette/reconstruction diagnostics across the actually fitted candidate ranks",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "gse188900_specimen_mapping.tsv": {
+    "files": [
+      "data/metadata/quality/source_mapping.tsv"
+    ],
+    "sha256": "c801887ebe8ad5359dbbeebf4bbec37b0a197e25c05f1bf2709380e406cac83f",
+    "rows": 8,
+    "columns": 15,
+    "role": "Original GEO/specimen-to-P1\u2013P6 records; unresolved donor fields are preserved",
+    "supplement": "S1;S3",
+    "unit": "source specimen"
+  },
+  "unit_level_contributions.tsv": {
+    "files": [
+      "results/tables/discovery/unit_level_contributions.tsv"
+    ],
+    "sha256": "8964ee55136208cc21f1bc43b030298ab59fed02bc46de00fa45e06b24de67cf",
+    "rows": 663,
+    "columns": 21,
+    "role": "Complete patient/source-unit usage contributions underpinning RAW/EQUAL summaries",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "weighting_summary.tsv": {
+    "files": [
+      "results/tables/discovery/weighting_summary.tsv"
+    ],
+    "sha256": "2537688f4061f6b6716fb0282b2f2337145075741b36a4f2ac43a36bef46bfe8",
+    "rows": 7,
+    "columns": 37,
+    "role": "Seven-program representation, effective-patient and weighting-regime summaries",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "rmp_frozen_signatures.tsv": {
+    "files": [
+      "results/tables/discovery/frozen_signatures.tsv"
+    ],
+    "sha256": "8a9a281bd2ec55d9984bb1ee502fe2b52740f7248db68a4a6054736cf3ef32ab",
+    "rows": 1050,
+    "columns": 12,
+    "role": "All 1050 ordered Top50/Top100 member positions, source ranks, versions and hashes",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "final_claim_profiles.tsv": {
+    "files": [
+      "results/tables/evidence/final_claim_profiles.tsv"
+    ],
+    "sha256": "b3c51ca8605d4670798a5bd88d12f128f5231129a63c278632b0740a8ac5182a",
+    "rows": 14,
+    "columns": 27,
+    "role": "Final native-domain claim profiles and qualified interpretation for all seven programs",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "harmonized_grid.tsv": {
+    "files": [
+      "results/tables/evidence/harmonized_grid.tsv"
+    ],
+    "sha256": "b91007aeb1213c97092e7d0289d5e28bcef8314d7abde1f96a5ea7091b605b58",
+    "rows": 3024,
+    "columns": 11,
+    "role": "Complete 216-path-by-14-profile harmonized rule comparison",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "retention_denominators.tsv": {
+    "files": [
+      "results/tables/evidence/retention_denominators.tsv"
+    ],
+    "sha256": "025d38edf8c33425374e190f9f53961fb4f2f10557e064d1f9c77132bbeb2016",
+    "rows": 14,
+    "columns": 7,
+    "role": "Explicit all-path versus determinate-path denominators for sensitivity retention",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "world_level_rates_recomputed.tsv": {
+    "files": [
+      "results/tables/evidence/world_level_rates_recomputed.tsv"
+    ],
+    "sha256": "889ebcf06989bc3d8aeb79b835210e0a35db2a1e65d3ccabd0fbf57b2aa7e580",
+    "rows": 48,
+    "columns": 9,
+    "role": "World-level false-majority and broad-program detection rates with binomial intervals",
+    "supplement": "S10",
+    "unit": "evidence"
+  },
+  "cnmf_input_cell_counts.tsv": {
+    "files": [
+      "results/tables/quality/cnmf_input_cell_counts.tsv"
+    ],
+    "sha256": "dc0f80088e175e129d4e90ca3483f6d95b2fe472fc400a590b7108c3a23bb3da",
+    "rows": 69,
+    "columns": 4,
+    "role": "Actual per-source cell counts entering each independent cNMF fit",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "CNV_configurations_by_patient.tsv": {
+    "files": [
+      "results/tables/quality/CNV_configurations_by_patient.tsv"
+    ],
+    "sha256": "44cb59a2199ccb049eb8af2e8da6485e953c84ebb6132912933b4a264a05406b",
+    "rows": 18,
+    "columns": 13,
+    "role": "Patient/reference counts and candidate selections under the predefined CNV configurations",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "CNV_depth_associations.tsv": {
+    "files": [
+      "results/tables/quality/CNV_depth_associations.tsv"
+    ],
+    "sha256": "c8edbf496d34298150c5ce2576e366fe1dd19f209ec20e5eaaa5d027aeebffd3",
+    "rows": 71,
+    "columns": 6,
+    "role": "Descriptive relationships between library size and CNV score under each configuration",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "CNV_identity_decision.json": {
+    "files": [
+      "data/metadata/quality/CNV_identity_decision.json"
+    ],
+    "sha256": "06dfc3b8456eb2be28a3018970eed783fff9ab47506747b0cde00ba15fc3c9df",
+    "rows": "",
+    "columns": "",
+    "role": "Operational candidate-identity adjudication and retained limitations",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "CNV_method_audit.tsv": {
+    "files": [
+      "results/tables/quality/CNV_method_audit.tsv"
+    ],
+    "sha256": "c63f67ba1f887bb9aa16d815773e09e2bd1ecefb09bf8b9991ca64f7f83142e9",
+    "rows": 13,
+    "columns": 3,
+    "role": "Historical and repaired CNV normalization, window/reference and chunk definitions",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "donor_mapping.tsv": {
+    "files": [
+      "data/metadata/quality/source_mapping.tsv"
+    ],
+    "sha256": "c801887ebe8ad5359dbbeebf4bbec37b0a197e25c05f1bf2709380e406cac83f",
+    "rows": 8,
+    "columns": 15,
+    "role": "Original GEO/specimen-to-P1\u2013P6 records; unresolved donor fields are preserved",
+    "supplement": "S1;S3",
+    "unit": "source specimen"
+  },
+  "external_candidate_admission.tsv": {
+    "files": [
+      "results/tables/quality/external_candidate_admission.tsv"
+    ],
+    "sha256": "89d02cc98df069c0d6650c2260cc592ee1a9c9c47e295c28274e285d03e73e55",
+    "rows": 12,
+    "columns": 3,
+    "role": "External-cohort admission evidence and explicit failed-admission status",
+    "supplement": "S1",
+    "unit": "quality"
+  },
+  "annotation_theme_support.tsv": {
+    "files": [
+      "results/tables/discovery/annotation_theme_support.tsv"
+    ],
+    "sha256": "45a551ab0d2e016355b67864e5980afc93ff7d105864d544baca6f5f1f40e82c",
+    "rows": 294,
+    "columns": 9,
+    "role": "Archived annotation-theme enrichment supporting the descriptive RMP names",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "enrichment_resources.tsv": {
+    "files": [
+      "results/tables/discovery/enrichment_resources.tsv"
+    ],
+    "sha256": "7af6a139675600a6321520e35b306103de803872104d527a57999433de7d4c39",
+    "rows": 4,
+    "columns": 12,
+    "role": "Frozen enrichment-library versions, source URLs and checksums for authorized retrieval",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "frozen_signatures.tsv": {
+    "files": [
+      "results/tables/discovery/frozen_signatures.tsv"
+    ],
+    "sha256": "8a9a281bd2ec55d9984bb1ee502fe2b52740f7248db68a4a6054736cf3ef32ab",
+    "rows": 1050,
+    "columns": 12,
+    "role": "All 1050 ordered Top50/Top100 member positions, source ranks, versions and hashes",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "ora_enrichment_all.tsv": {
+    "files": [
+      "results/tables/discovery/ora_enrichment_all_part01.tsv",
+      "results/tables/discovery/ora_enrichment_all_part02.tsv"
+    ],
+    "sha256": "58ec1746ceab6903b1ebbd90c0a3f1aba875dc240e3c6bd8d086afe89354982d",
+    "rows": 220626,
+    "columns": 13,
+    "role": "Complete over-representation results including non-significant terms",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "preranked_enrichment_all.tsv": {
+    "files": [
+      "results/tables/discovery/preranked_enrichment_all.tsv"
+    ],
+    "sha256": "a6a1b0b17d90c745dfaa851f01efbb358a770759e02f43bceb5758a5ed774b32",
+    "rows": 32760,
+    "columns": 13,
+    "role": "Complete preranked enrichment results including non-significant terms",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "program_annotation.tsv": {
+    "files": [
+      "results/tables/discovery/program_annotation.tsv"
+    ],
+    "sha256": "fa85fea0aa58e69fb0068c18b7bb8e1549a16a2eac4a7c0497337abcbad5523f",
+    "rows": 7,
+    "columns": 26,
+    "role": "Source component identities and frozen biological annotations for all seven programs",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "shared_measured_gene_background.tsv": {
+    "files": [
+      "results/tables/discovery/shared_measured_gene_background.tsv"
+    ],
+    "sha256": "f81ca5dbdfa52b6d5550cca99307cf8807ec5bcd14d53c5a831a1d1d0b0a0105",
+    "rows": 9,
+    "columns": 8,
+    "role": "Measured gene-universe counts and background definitions for discovery annotation",
+    "supplement": "S2",
+    "unit": "discovery"
+  },
+  "all_80_pairs.tsv": {
+    "files": [
+      "results/tables/discovery/all_80_pairs.tsv"
+    ],
+    "sha256": "6fbd8531a907373e3ee625cfb313da63b14cc327f3c11041fb47e4dd99953825",
+    "rows": 80,
+    "columns": 50,
+    "role": "All 80 candidate component pairs, component metrics, gene-label P values and BH80",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "gene_overlap.tsv": {
+    "files": [
+      "results/tables/discovery/gene_overlap.tsv"
+    ],
+    "sha256": "6014a8f0659e669ced5405d13a0fa29e7fe30d50b3c8e44f77aad2a7be1e42a8",
+    "rows": 98,
+    "columns": 7,
+    "role": "Frozen Top50/Top100 member intersections between RMPs for redundancy/context assessment",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "GSE160269_discovery_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE160269_lineage.tsv"
+    ],
+    "sha256": "2164c3fc15690d68cac262d5b4d11f1dce4ad4af5b4bcc04590457adf4368769",
+    "rows": 60,
+    "columns": 6,
+    "role": "GSE160269 discovery-input lineage and source-unit reconciliation",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "GSE188900_discovery_lineage.tsv": {
+    "files": [
+      "data/metadata/discovery/GSE188900_lineage.tsv"
+    ],
+    "sha256": "99824dbb2666fd262cf886a2984bb919a0caeefc230b2bd1e8dd2611e9570782",
+    "rows": 7,
+    "columns": 6,
+    "role": "GSE188900 discovery-input lineage under the retained six-patient grouping",
+    "supplement": "S1;S3",
+    "unit": "source unit"
+  },
+  "LOPO.tsv": {
+    "files": [
+      "results/tables/discovery/LOPO.tsv"
+    ],
+    "sha256": "113ee85dd3564761086fbf30acce6f08b06b1bf03e022776d76ba9e4233d15c2",
+    "rows": 663,
+    "columns": 13,
+    "role": "All source-unit deletions for discovery RAW/EQUAL concentration and effective representation",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "matching_margins.tsv": {
+    "files": [
+      "results/tables/discovery/matching_margins.tsv"
+    ],
+    "sha256": "13766d5e26158fa7579a57bf3ea602d5e32b905a2c11c1ed3b8055a590371d1c",
+    "rows": 7,
+    "columns": 59,
+    "role": "Seven reciprocal matches and both directional next-best similarity margins",
+    "supplement": "S3",
+    "unit": "discovery"
+  },
+  "patient_score_correlations.tsv": {
+    "files": [
+      "results/tables/external_rna/program_score_correlations.tsv"
+    ],
+    "sha256": "e5958a3357b1576d07a8755e164f7f9823c5958f55bb46b649530fe8ab673f81",
+    "rows": 196,
+    "columns": 8,
+    "role": "Patient-level rank correlations between frozen RMP expression scores in both external cohorts",
+    "supplement": "S4",
+    "unit": "cohort/patient-score comparison"
+  },
+  "GSE203067_author_subset_Q_summary.tsv": {
+    "files": [
+      "results/tables/external_rna/GSE203067_author_subset_Q_summary.tsv"
+    ],
+    "sha256": "0aea2ec6f9368a3b343396f90653fe1d5f7d2bfc34a91e1dfd8443b8f31fbd3f",
+    "rows": 14,
+    "columns": 19,
+    "role": "Descriptive Q on the author-annotated GSE203067 epithelial subset",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "GSE203067_author_subset_retention.tsv": {
+    "files": [
+      "results/tables/external_rna/GSE203067_author_subset_retention.tsv"
+    ],
+    "sha256": "9a4eace083ce0e5b483379c3ae146887e7d9add8ef7053abe413f6a81db39f4a",
+    "rows": 4,
+    "columns": 5,
+    "role": "Cell-retention accounting for the author-annotation sensitivity",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "original_expression_summary.tsv": {
+    "files": [
+      "results/tables/external_rna/original_expression_summary.tsv"
+    ],
+    "sha256": "24eb6a04ffcf4b7ba30106d1bd07575071a5b226022eef00844ad48d85968e1d",
+    "rows": 28,
+    "columns": 29,
+    "role": "Patient-pseudobulk matched-null expression summaries, separate from coordination Q",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "patient_expression.tsv": {
+    "files": [
+      "results/tables/external_rna/patient_expression.tsv"
+    ],
+    "sha256": "8ba6523d83cf86c905d04ea569dee644a6b341b9b71768cee222494e4f837650",
+    "rows": 252,
+    "columns": 19,
+    "role": "All patient-level frozen expression scores and matched-null z values",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "patient_Q.tsv": {
+    "files": [
+      "results/tables/external_rna/patient_Q.tsv"
+    ],
+    "sha256": "8a485eb80bc3ee70d1eeca6af8b111e3ed3eb67e5952b4830e2136e043fe1398",
+    "rows": 252,
+    "columns": 16,
+    "role": "Original-reference per-patient coordination, null effects and evaluability",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "patient_score_size_agreement.tsv": {
+    "files": [
+      "results/tables/external_rna/patient_score_size_agreement.tsv"
+    ],
+    "sha256": "4cd23a21b8cddd075420a1c67a99312429f3eaa7e20796607df2367f6610111e",
+    "rows": 14,
+    "columns": 4,
+    "role": "Agreement of Top50 and Top100 patient expression scores",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "Q_summary.tsv": {
+    "files": [
+      "results/tables/external_rna/Q_summary.tsv"
+    ],
+    "sha256": "baefeaec9b6f92b1acfed471e29bc9698d190b87dc693872e6ab2b120ef637a9",
+    "rows": 28,
+    "columns": 17,
+    "role": "Original RAW_RANK/HIST cohort Q, frozen intervals and support criteria",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "QC.tsv": {
+    "files": [
+      "results/tables/external_rna/QC.tsv"
+    ],
+    "sha256": "69e5847fbeb856753d9586edc9386da505402011dd74c24f6a7a58bd31784b29",
+    "rows": 31,
+    "columns": 13,
+    "role": "Cohort- and patient-level eligibility/cell-retention checks",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "QC_cohort_conditions.tsv": {
+    "files": [
+      "results/tables/external_rna/QC_cohort_conditions.tsv"
+    ],
+    "sha256": "d9fa99da3340750863fed2438dbf5b96c8bbe60d1737d98693fad4b28346f0b6",
+    "rows": 70,
+    "columns": 18,
+    "role": "External RNA results across predefined cell-QC conditions",
+    "supplement": "S4",
+    "unit": "external_rna"
+  },
+  "ALL14_FROZEN_EVIDENCE_INPUT.tsv": {
+    "files": [
+      "data/processed/evidence/frozen_program_evidence.tsv"
+    ],
+    "sha256": "f95846ef3209cd9396d43bd18eba9fa4a49986c802ebae347782a91aa888259f",
+    "rows": 14,
+    "columns": 139,
+    "role": "Frozen 14-program/size evidence inputs used by the classifier and claim-evaluation rules",
+    "supplement": "S5;S10",
+    "unit": "program/signature"
+  },
+  "ALL7_STRATEGY_COMPARISON.tsv": {
+    "files": [
+      "results/tables/evidence/ALL7_STRATEGY_COMPARISON.tsv"
+    ],
+    "sha256": "be8311c42b8aeefcb5ef2d68f9ec314dede9a83957f87b96d8e654e20c2fc40e",
+    "rows": 448,
+    "columns": 9,
+    "role": "Complete 56-cell claim ledger for each signature size and M1\u2013M4 strategy",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "AUDIT_BRIDGE_RULES.json": {
+    "files": [
+      "data/metadata/evidence/AUDIT_BRIDGE_RULES.json"
+    ],
+    "sha256": "a414743d675dd734257263c57844b42e00a02e37828874e47ad442d0c2a742e3",
+    "rows": "",
+    "columns": "",
+    "role": "Current deterministic descriptive EDSC bridge and missing-domain handling",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "COORDINATION_SUBCLAIM_RESULTS.tsv": {
+    "files": [
+      "results/tables/evidence/COORDINATION_SUBCLAIM_RESULTS.tsv"
+    ],
+    "sha256": "0553323321b68cbf9c72861f5f6fe518a2b8d91519e2a2152843c5229102955a",
+    "rows": 140,
+    "columns": 7,
+    "role": "Distinct mean, repeated-patient and patient-majority coordination subclaims",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "EDSC_threshold_sensitivity.tsv": {
+    "files": [
+      "results/tables/evidence/EDSC_threshold_sensitivity.tsv"
+    ],
+    "sha256": "14c6d0589e9caefe716d63c47f482fd0f22a5d37589cd2653b9043e52a7e65e8",
+    "rows": 420,
+    "columns": 27,
+    "role": "Only the submitted model-B baseline, 20 threshold and nine QC alternatives",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "EMPIRICAL_VS_GENERIC_BOUNDARIES.tsv": {
+    "files": [
+      "results/tables/evidence/EMPIRICAL_VS_GENERIC_BOUNDARIES.tsv"
+    ],
+    "sha256": "f6ae4977dd827a767195a1e7d32adf09588bd5cc726f12398c5c443362709cd7",
+    "rows": 672,
+    "columns": 16,
+    "role": "Empirical versus generic cross-claim boundary qualifications under domain masking",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "framework_ablation.tsv": {
+    "files": [
+      "results/tables/evidence/framework_ablation.tsv"
+    ],
+    "sha256": "89f9a37ea75046647164153feca98d011fe01209c6b1d41f266aa8334a1988c2",
+    "rows": 12,
+    "columns": 14,
+    "role": "Domain-mask summary separating own-claim losses and cross-claim boundary changes",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "framework_leave_one_domain_out.tsv": {
+    "files": [
+      "results/tables/evidence/framework_leave_one_domain_out.tsv"
+    ],
+    "sha256": "02abb928aecc146b7109f7b81f69f87a1ce305358300a4b0d107418175af2c35",
+    "rows": 672,
+    "columns": 13,
+    "role": "Complete per-program/claim domain-mask statuses and restrictions",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "profiles.tsv": {
+    "files": [
+      "data/processed/evidence/frozen_program_evidence.tsv"
+    ],
+    "sha256": "f95846ef3209cd9396d43bd18eba9fa4a49986c802ebae347782a91aa888259f",
+    "rows": 14,
+    "columns": 139,
+    "role": "Frozen 14-program/size evidence inputs used by the classifier and claim-evaluation rules",
+    "supplement": "S5;S10",
+    "unit": "program/signature"
+  },
+  "PROGRAM_STRATEGY_COUNTS.tsv": {
+    "files": [
+      "results/tables/evidence/PROGRAM_STRATEGY_COUNTS.tsv"
+    ],
+    "sha256": "f60b248b2123636778a429a374d8c8e8f373a3eb128958de4cad17c13ddf19d3",
+    "rows": 56,
+    "columns": 8,
+    "role": "M1\u2013M4 claim-state counts at each signature size",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "recomputed_audit_bridge.tsv": {
+    "files": [
+      "results/tables/evidence/recomputed_audit_bridge.tsv"
+    ],
+    "sha256": "8c13658be122bf97626edab3b6f50ed12b7fe0db3674b8787a14ba3ac10214ba",
+    "rows": 14,
+    "columns": 17,
+    "role": "Fourteen final descriptive EDSC classifications with native gate inputs",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "STAGE3_FULL_ENDPOINTS_REUSED.tsv": {
+    "files": [
+      "data/processed/evidence/technical_perturbation_endpoints.tsv"
+    ],
+    "sha256": "757fd6b1b4be196753c1699e852d5fa824d7e053ddd9f26b9bb3e031ad4f14ab",
+    "rows": 1008,
+    "columns": 43,
+    "role": "Source endpoints for technical-condition repeat and evidence-availability analyses",
+    "supplement": "S5;S10",
+    "unit": "program/perturbation/condition"
+  },
+  "TECHNICAL_CONDITION_SOURCE_DATA.tsv": {
+    "files": [
+      "results/tables/evidence/TECHNICAL_CONDITION_SOURCE_DATA.tsv"
+    ],
+    "sha256": "90c275283ac6c116d471d630d6c961f2f3748ee4c50d940c5700e54450a0b5d6",
+    "rows": 98,
+    "columns": 43,
+    "role": "Fixed technical-condition repeat records used in the final framework figure",
+    "supplement": "S5",
+    "unit": "evidence"
+  },
+  "bulk_context.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_context.tsv"
+    ],
+    "sha256": "7b67ab92a15ff24669c030aa473561699a83236426ad7ddd0afe9be7ebe6bce4",
+    "rows": 20,
+    "columns": 16,
+    "role": "All ten prespecified tumor-only signature/context comparisons per size, including negatives",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "bulk_context_gene_overlap.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_context_gene_overlap.tsv"
+    ],
+    "sha256": "7e2b9391219f7e67258e0e8c7aea5fb947ba716fdeacf35225c82adc8a2d070c",
+    "rows": 6,
+    "columns": 5,
+    "role": "Frozen member exclusions preventing direct gene-overlap inflation of context scores",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "bulk_paired_effects.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_paired_effects.tsv"
+    ],
+    "sha256": "3fcd55058fe274b777cf4d44ca82b9bbdb2fc669ab8667bdadaa8d37c8522259",
+    "rows": 7,
+    "columns": 10,
+    "role": "Seven-program paired bulk tumor\u2013adjacent differences with separate BH7",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "bulk_patient_scores.tsv": {
+    "files": [
+      "data/processed/tissue_rna/bulk_patient_scores.tsv"
+    ],
+    "sha256": "642cb2e98b090acaecce01ecf50b1efcd35d2c480970801c56eb20a2c459b046",
+    "rows": 179,
+    "columns": 23,
+    "role": "Frozen tumor, adjacent and paired-delta scores for all 179 bulk patients",
+    "supplement": "S6",
+    "unit": "patient pair"
+  },
+  "bulk_subseries_counts.tsv": {
+    "files": [
+      "results/tables/tissue_rna/bulk_subseries_counts.tsv"
+    ],
+    "sha256": "429026bb71f954cbe218b10add9d0398657ba7e50aefc4c7ff78890ad98ff58f",
+    "rows": 2,
+    "columns": 2,
+    "role": "Explicit 60/119-pair source-subseries denominators",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "clinical_endpoints.tsv": {
+    "files": [
+      "results/tables/tissue_rna/clinical_endpoints.tsv"
+    ],
+    "sha256": "e649c9cfd2912205107d23f5ed4e29805b4d4417a72da710b10c713eacfeb0aa",
+    "rows": 28,
+    "columns": 12,
+    "role": "All 21 grade/TNM/N tests and seven unavailable metastasis tests",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "complete_pathology_family_sensitivity.tsv": {
+    "files": [
+      "results/tables/tissue_rna/complete_pathology_family_sensitivity.tsv"
+    ],
+    "sha256": "3a845c8213980997bf4d635e3bbc63bbb92935906ae052a077a6e444228c3d51",
+    "rows": 14,
+    "columns": 17,
+    "role": "Historical BH5/BH2 and complete seven-program pathology sensitivity",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "context_gene_sets.tsv": {
+    "files": [
+      "data/metadata/tissue_rna/context_gene_sets.tsv"
+    ],
+    "sha256": "3e64e957ff03086e8e39b1a1d4bd93618ddb2afb3484d973f4a5c0c3654bfcb8",
+    "rows": 63,
+    "columns": 4,
+    "role": "Tissue-context members after the frozen signature-overlap exclusion rule",
+    "supplement": "S6",
+    "unit": "context/gene set"
+  },
+  "fitted_state_model_diagnostics.tsv": {
+    "files": [
+      "results/tables/tissue_rna/fitted_state_model_diagnostics.tsv"
+    ],
+    "sha256": "a68baf0f387418b76051035499d11fde3b487a8b70802a4114aa860bfc0b46e1",
+    "rows": 14,
+    "columns": 28,
+    "role": "Convergence, fallback and warning records for every ordered-state model",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "LOPO_state_slopes.tsv": {
+    "files": [
+      "results/tables/tissue_rna/LOPO_state_slopes.tsv"
+    ],
+    "sha256": "e2197093c135e111380d6389b0742206114707dd0a9535183b3a1235ea259537",
+    "rows": 196,
+    "columns": 10,
+    "role": "All leave-one-patient-out pathology slope estimates and direction checks",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "ordered_state_models.tsv": {
+    "files": [
+      "results/tables/tissue_rna/ordered_state_models.tsv"
+    ],
+    "sha256": "dc7c76e74fb171b8787773b09af5f7ee00b1cfd23336751b01ff94cfa6f37d0f",
+    "rows": 14,
+    "columns": 17,
+    "role": "All ordered pathology slopes, intervals, permutation P and separate test families",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "OS_Cox_models.tsv": {
+    "files": [
+      "results/tables/tissue_rna/OS_Cox_models.tsv"
+    ],
+    "sha256": "acfebc01e975d44e22ab1aa03d1341450f14704adf00a40525bc16b415b599f0",
+    "rows": 14,
+    "columns": 15,
+    "role": "All seven univariable and seven adjusted Cox models, including non-significant results",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "paired_state_contrasts.tsv": {
+    "files": [
+      "results/tables/tissue_rna/paired_state_contrasts.tsv"
+    ],
+    "sha256": "4e965bf6ffc663f19c0cd62a509c7f48fb122e794601cd081983cd7dbf508434",
+    "rows": 42,
+    "columns": 17,
+    "role": "All paired histological-state median contrasts and uncertainty",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "patient_state_scores.tsv": {
+    "files": [
+      "data/processed/tissue_rna/patient_state_scores.tsv"
+    ],
+    "sha256": "3d7320852c6cfb8e80da48ecbdba27bbd36ca7002dab0772c9eebc99780a1d86",
+    "rows": 476,
+    "columns": 10,
+    "role": "Patient-state signature scores and cell counts underlying the 34 histology observations",
+    "supplement": "S6",
+    "unit": "patient/state/program"
+  },
+  "state_counts.tsv": {
+    "files": [
+      "results/tables/tissue_rna/state_counts.tsv"
+    ],
+    "sha256": "6d67e2a37105d4bd610d46061fb040d6c0acc5171ed0bb21399102f0e576692d",
+    "rows": 3,
+    "columns": 3,
+    "role": "Patient-state denominators for the 34-observation histology analysis",
+    "supplement": "S6",
+    "unit": "tissue_rna"
+  },
+  "cross_cohort_gene_concordance.tsv": {
+    "files": [
+      "results/tables/proteomics/cross_cohort_gene_concordance.tsv"
+    ],
+    "sha256": "f798a6ae4f36601026fb81c0f28f7390cfbfbd240d636dabd6e4ef0fdf12fe33",
+    "rows": 28,
+    "columns": 10,
+    "role": "Common-gene effect concordance across the two proteomic cohorts and eligibility scopes",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "cross_cohort_gene_effects.tsv": {
+    "files": [
+      "results/tables/proteomics/cross_cohort_gene_effects.tsv"
+    ],
+    "sha256": "7f6b5f3c8078764b3cb51d921e0063d9ac96be0112c45785e66e730bbbbbcb61",
+    "rows": 230,
+    "columns": 20,
+    "role": "Per-gene paired effects, availability and fixed80 membership in both cohorts",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "Liu_gene_effects.tsv": {
+    "files": [
+      "results/tables/proteomics/Liu_gene_effects.tsv"
+    ],
+    "sha256": "9f196ff3c5ad265b95c3f6d8d21aeac9c0f807b6787d6cf790f58eb2c20b0fbe",
+    "rows": 1050,
+    "columns": 33,
+    "role": "All primary-cohort member effects supporting positive/negative direction and DCI",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "Liu_mixed_directions.tsv": {
+    "files": [
+      "results/tables/proteomics/Liu_mixed_directions.tsv"
+    ],
+    "sha256": "0bfb4330a1d8b84091a2fb5cc7737767e226df80a0b2462858a74d993aa4ae82",
+    "rows": 28,
+    "columns": 48,
+    "role": "Program-level member direction, cancellation and coverage summaries",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "paired_proteomic_scores.tsv": {
+    "files": [
+      "data/processed/proteomics/paired_proteomic_scores.tsv"
+    ],
+    "sha256": "64e6273725c98b9a44571d6e4645ba3be338e9f09b6232a1581f6d1c7b2a3b2a",
+    "rows": 1736,
+    "columns": 8,
+    "role": "All primary-cohort patient-pair signature deltas used to reconstruct paired dz",
+    "supplement": "S7",
+    "unit": "patient pair/program/size"
+  },
+  "proteomic_contrasts.tsv": {
+    "files": [
+      "results/tables/proteomics/proteomic_contrasts.tsv"
+    ],
+    "sha256": "5fbe160173e4557d025b2173eb795f4c7714ce53f322c38addb61db00de3f3e3",
+    "rows": 21,
+    "columns": 18,
+    "role": "All primary paired protein effects, intervals, direct tests and matched-background families",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "Zhao_gene_results.tsv": {
+    "files": [
+      "results/tables/proteomics/Zhao_gene_results.tsv"
+    ],
+    "sha256": "bd8a73fcbb3179011dd28d44abd73f163e9817a7df85e6f76e369757164db843",
+    "rows": 1050,
+    "columns": 18,
+    "role": "Second-cohort member-level protein/RNA measurements and paired effects",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "Zhao_program_coverage.tsv": {
+    "files": [
+      "results/tables/proteomics/Zhao_program_coverage.tsv"
+    ],
+    "sha256": "a96eff75fac4a5fe5427e0d8670bb9e06fbad9b79e51679a219aaed0c81cd19f",
+    "rows": 14,
+    "columns": 27,
+    "role": "Second-cohort coverage and actual RNA\u2013protein concordance results for both sizes",
+    "supplement": "S7",
+    "unit": "proteomics"
+  },
+  "PDO_day15_exact.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_day15_exact.tsv"
+    ],
+    "sha256": "6fbf127519833db1a03d7b3e815d03f37edc32faede9acd7e060bd8081fd0c49",
+    "rows": 56,
+    "columns": 13,
+    "role": "All exact fixed-dose Day-15 tests by drug, 9/12-model scope and signature size",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "PDO_day15_membership_scores.tsv": {
+    "files": [
+      "data/processed/pdo/day15_membership_scores.tsv"
+    ],
+    "sha256": "c505399c299ab86eced9ec2b67e2d6b53a4eed590aea7a346adee8db6a58ff7b",
+    "rows": 15,
+    "columns": 27,
+    "role": "AUC/Day-15 model union with endpoint availability and frozen scores",
+    "supplement": "S8",
+    "unit": "PDO/endpoint"
+  },
+  "PDO_day15_source_wells.tsv": {
+    "files": [
+      "data/processed/pdo/day15_source_wells.tsv"
+    ],
+    "sha256": "a41305057d0726ee1bd841f6fc9327bd97c57f45b71a4017bf4d457a7631aa9e",
+    "rows": 144,
+    "columns": 4,
+    "role": "Published Day-15 fixed-dose assay replicates",
+    "supplement": "S8",
+    "unit": "PDO/drug/well"
+  },
+  "PDO_exact_results.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_exact_results.tsv"
+    ],
+    "sha256": "3aef7a86a5a68f942149daac1b9c77ff9c7b651eabbd3da0e91763a458f23e86",
+    "rows": 120,
+    "columns": 19,
+    "role": "All seven-program and canonical-control exact AUC tests, with explicit families and negatives",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "PDO_IFN_incremental.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_IFN_incremental.tsv"
+    ],
+    "sha256": "1f8945521062b56fcf58e75a8cb7830c057d919f5e8997b2ddfbc8ed0234f7af",
+    "rows": 12,
+    "columns": 18,
+    "role": "Canonical IFN-reference and incremental-association sensitivity results",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "PDO_patient_and_batch.tsv": {
+    "files": [
+      "data/metadata/pdo/patient_and_batch.tsv"
+    ],
+    "sha256": "3bda74e4ed50c31c9f5a6bd266b31a0d51c8747acb4e71c5cbc4299bda3ed186",
+    "rows": 10,
+    "columns": 10,
+    "role": "Published PDO-source and assay/batch provenance; unavailable fields remain explicit",
+    "supplement": "S8",
+    "unit": "PDO"
+  },
+  "PDO_public_dose_wells.tsv": {
+    "files": [
+      "data/processed/pdo/dose_wells.tsv"
+    ],
+    "sha256": "80897e71a4b3b73922812159ba2303c3ed89fe95f9688e625d03dd7e9fb5e8c0",
+    "rows": 240,
+    "columns": 5,
+    "role": "Published dose/replicate viability wells used for the AUC reintegration audit",
+    "supplement": "S8",
+    "unit": "PDO/dose/well"
+  },
+  "PDO_robustness_L2O.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_robustness_L2O.tsv"
+    ],
+    "sha256": "1d5aacfbb14ed0ff79409e42ebd4f57416e0b6616ba398de35f477ce750b5a9f",
+    "rows": 180,
+    "columns": 12,
+    "role": "All 45 C07 two-PDO deletions per signature size",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "PDO_robustness_LOO.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_robustness_LOO.tsv"
+    ],
+    "sha256": "6b5470a5ffdccc22f6137d8d1191152b4c5df7f345b0332d07797416a0795ed1",
+    "rows": 200,
+    "columns": 14,
+    "role": "All single-PDO deletions and corrected seven-program results",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "PDO_robustness_WT_LOO.tsv": {
+    "files": [
+      "results/tables/pdo/PDO_robustness_WT_LOO.tsv"
+    ],
+    "sha256": "8cdc196ac1b67cda510c9e68a7b07d10f6537b7f38b2f5332bd847baa2094096",
+    "rows": 160,
+    "columns": 13,
+    "role": "Nested NRF2-wild-type single-deletion sensitivity",
+    "supplement": "S8",
+    "unit": "pdo"
+  },
+  "PDO_scores_endpoints.tsv": {
+    "files": [
+      "data/processed/pdo/scores_endpoints.tsv"
+    ],
+    "sha256": "3a30b6494b81ce7d511ef2955c1c993b72786c39f126344644d85f51acd73e03",
+    "rows": 10,
+    "columns": 58,
+    "role": "Ten PDO frozen signature/control scores, author AUC and re-integrated AUC",
+    "supplement": "S8",
+    "unit": "PDO"
+  },
+  "PDO_standard_control_gene_membership.tsv": {
+    "files": [
+      "data/metadata/pdo/control_gene_membership.tsv"
+    ],
+    "sha256": "844b9cf5de619db444353670cdf6ffe7e5d3eb9a85ab2afcb027f9d9c07a8288",
+    "rows": 571,
+    "columns": 3,
+    "role": "Exact canonical IFN/NRF2 control members and detected membership",
+    "supplement": "S8",
+    "unit": "control/gene"
+  },
+  "overlap_gene_background.tsv": {
+    "files": [
+      "data/metadata/reference_programs/measured_background.tsv"
+    ],
+    "sha256": "d7de7aba09791d48c365e6aca8854679ae891da6509cb98274435c68b1bd6d1c",
+    "rows": 16131,
+    "columns": 1,
+    "role": "Complete 16131-gene measured background for Zhang/Gavish overlap tests",
+    "supplement": "S9",
+    "unit": "gene"
+  },
+  "published_program_overlap.tsv": {
+    "files": [
+      "results/tables/reference_programs/published_program_overlap.tsv"
+    ],
+    "sha256": "aed154e2d2cfe13167f23ddc7222d15d2b44e1e4ceb662b8c1a774344b878987",
+    "rows": 686,
+    "columns": 24,
+    "role": "Complete Zhang/Gavish reference-program overlaps and multiplicity-adjusted results",
+    "supplement": "S9",
+    "unit": "reference_programs"
+  },
+  "final_rules.json": {
+    "files": [
+      "data/metadata/evidence/claim_rule_parameters.json"
+    ],
+    "sha256": "ef1379435ea4fd717a7bc54ee3fe4897252157c9d6fa3c68e2c341e8a84b69ee",
+    "rows": "",
+    "columns": "",
+    "role": "Claim-conditioned evaluability and testing parameters",
+    "supplement": "S10",
+    "unit": ""
+  },
+  "figure_numeric_hashes.json": {
+    "files": [
+      "data/metadata/figure_numeric_hashes.json"
+    ],
+    "sha256": "a0734a5953cc4810647ac2236c0e4746aaeb839e3572e94fdd84f6243e056399",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen final figure numerical input hashes",
+    "supplement": "Figures1-9",
+    "unit": ""
+  },
+  "PREDEFINED_CNV_CONFIG.json": {
+    "files": [
+      "data/metadata/quality/PREDEFINED_CNV_CONFIG.json"
+    ],
+    "sha256": "8865a070ac61d87392c74000ab38e26b9951e7c8e8def5cefbea76429488c1a2",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen CNV or 16-grouping sensitivity specification",
+    "supplement": "M2;S1;S3",
+    "unit": "configuration"
+  },
+  "PREDEFINED_SCENARIOS.json": {
+    "files": [
+      "data/metadata/quality/PREDEFINED_SCENARIOS.json"
+    ],
+    "sha256": "c2731af860081a22217289cb56f211c4b0035aed4db4ba0631c935e82339902e",
+    "rows": "",
+    "columns": "",
+    "role": "Frozen CNV or 16-grouping sensitivity specification",
+    "supplement": "M2;S1;S3",
+    "unit": "configuration"
+  },
+  "reference_resources.tsv": {
+    "files": [
+      "data/metadata/reference_programs/resources.tsv"
+    ],
+    "sha256": "71e1a7db40dd4a85a346c0084a0b45a0b6938beec0129aa5fee48bf61afd255d",
+    "rows": 4,
+    "columns": 5,
+    "role": "Official reference-program and HGNC source identities, pinned resource checksums and acquisition endpoints",
+    "supplement": "S9",
+    "unit": "reference resource"
+  },
+  "parameter_grid_integrity.json": {
+    "files": [
+      "data/metadata/evidence/parameter_grid_integrity.json"
+    ],
+    "sha256": "f7cd26bc66d3e996403c2dc490755fc533bbf188e13fb6fc6e2670b3162f3101",
+    "rows": "",
+    "columns": "",
+    "role": "Original parameter-grid byte count, row count and SHA256 for exact deterministic reconstruction",
+    "supplement": "S5;S10",
+    "unit": "integrity specification"
+  },
+  "S5_EVIDENCE_INCREMENTAL_VALUE.tsv": {
+    "files": [
+      "results/tables/evidence/cross_claim_qualification_summary.tsv"
+    ],
+    "sha256": "c27785b7f6a851a4997073ea18b5b119b362617813352ef3d31c81477c5a38a6",
+    "rows": 12,
+    "columns": 14,
+    "role": "Direct Figure S8 cross-claim qualification summary; derived from the complete retained domain-mask ledger",
+    "supplement": "S5;S10;FigS8",
+    "unit": "claim qualification or prespecified condition family"
+  },
+  "domain_masking_summary.tsv": {
+    "files": [
+      "results/tables/evidence/cross_claim_qualification_summary.tsv"
+    ],
+    "sha256": "c27785b7f6a851a4997073ea18b5b119b362617813352ef3d31c81477c5a38a6",
+    "rows": 12,
+    "columns": 14,
+    "role": "Direct Figure S8 cross-claim qualification summary; derived from the complete retained domain-mask ledger",
+    "supplement": "S5;S10;FigS8",
+    "unit": "claim qualification or prespecified condition family"
+  }
+}

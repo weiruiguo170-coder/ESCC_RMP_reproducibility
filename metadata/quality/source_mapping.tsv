@@ -1,0 +1,9 @@
+legacy_patient_id	sample_id	GEO_sample	BioSample	experiment	run	official_patient_field	author_MSE_groups	raw_cell_N	MSE_cell_N	tissue	donor_id	donor_count_confirmed	status	evidence
+P1	Patient1	GSM5691642	SAMN23168283	SRX13144549	SRR16952870	Patient1	Heso_1	4932	187	tumor			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied
+P2	Patient2	GSM5691643	SAMN23168284	SRX13144550	SRR16952871	Patient2	Heso_2	16807	492	tumor			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied
+P3	Patient3	GSM5691644	SAMN23168285	SRX13144551	SRR16952872	Patient3	Heso_3	3018	62	tumor			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied
+P4	Patient4	GSM5691645	SAMN23168286	SRX13144552	SRR16952873	Patient4	Heso_4	4807	339	tumor			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied
+P5	Patient5	GSM5691646	SAMN23168287	SRX13144553	SRR16952874	Patient5	Heso_5	7527	1108	tumor			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied
+P6	Patient6_ESCC1	GSM5691647	SAMN23168288	SRX13144554	SRR16952875	Patient6_ESCC1	Heso_6_para	3744	805	tumor			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied
+P6	Patient6_ESCC2	GSM5691648	SAMN23168289	SRX13144555	SRR16952876	Patient6_ESCC2	Heso_6_cancer	8295	3808	tumor			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied
+P6	Patient6_normal	GSM5691649	SAMN23168290	SRX13144556	SRR16952877	Patient6_normal		8107	0	adjacent_normal			DONOR_MAPPING_UNRESOLVED	Official sample identifiers concordant with local input; no5-donor reconciliation supplied

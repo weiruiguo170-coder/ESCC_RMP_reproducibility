@@ -1,0 +1,51 @@
+{
+  "phase": "G0",
+  "title": "Patient-aware projection of frozen recurrent malignant programs across ESCC carcinogenesis",
+  "date": "2026-08-27",
+  "seed": 20260827,
+  "dataset": "GSE199654",
+  "new_independent_validation_cohort": false,
+  "states": {
+    "NON_TUMOR": 0,
+    "DYSPLASIA": 1,
+    "TUMOR": 2
+  },
+  "official_pathology_mapping": {
+    "N": "NON_TUMOR",
+    "INF": "NON_TUMOR",
+    "LGIN": "DYSPLASIA",
+    "HGIN": "DYSPLASIA",
+    "Stage_I_to_IV": "TUMOR"
+  },
+  "official_sample_count_gate": {
+    "NON_TUMOR": 18,
+    "DYSPLASIA": 15,
+    "TUMOR": 14
+  },
+  "qc": "200 <= detected genes < 6000 and mitochondrial UMI fraction < 5%",
+  "primary_signature": "Phase D frozen Top50",
+  "sensitivity_signature": "Phase D frozen Top100",
+  "cell_scoring": "Phase E deterministic within-cell rank score on raw nonnegative UMI counts; covered genes only; zero counts tied low; no imputation/substitution/training",
+  "sample_summary": "median cell score",
+  "patient_state_summary": "unweighted median of sample-level median scores",
+  "primary_model": "RMP_score ~ ordered_state + (1|patient), REML random-intercept mixed model",
+  "fallback_model": "within-patient centered fixed-effect regression with patient-cluster-robust SE, only if MixedLM fails to converge",
+  "permutation": "10,000 patient-blocked label permutations within each patient's observed states; mixed-model GLS statistic with observed variance components",
+  "primary_multiple_testing": "BH across five Tier-1 Top50 ordered-state permutation P values",
+  "paired_bootstrap": 10000,
+  "lopo_major_instability_rule": "abs(full slope) >= full SE and <80% LOPO slopes preserve sign",
+  "supported_rule": "permutation BH FDR <0.05, mixed-model 95% CI excludes zero, LOPO sign fraction >=0.80, and no major instability",
+  "limited_rule": "nominal patient-aware permutation or mixed-model P <0.05 with LOPO sign fraction >=0.80 but supported rule not met",
+  "c02_c07_distinct_rule": "difference-score trend CI excludes zero, blocked permutation P<0.05, and LOPO sign fraction>=0.80",
+  "prohibited": [
+    "signature modification",
+    "new cNMF",
+    "rank selection",
+    "cross-cohort matching",
+    "pseudotime",
+    "survival",
+    "classifier",
+    "outcome optimization",
+    "patient deletion for results"
+  ]
+}

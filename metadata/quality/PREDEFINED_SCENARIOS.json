@@ -1,0 +1,162 @@
+{
+  "project_root": "upstream",
+  "output_root": "upstream\\FIG_R1_5D_Donor_Bounded_Sensitivity_20261115",
+  "scenarios": [
+    {
+      "scenario": "S00_ORIGINAL6",
+      "merged_aliases": [],
+      "hypothetical_units": 6,
+      "status": "HISTORICAL_RESULT"
+    },
+    {
+      "scenario": "S01_P1_P2",
+      "merged_aliases": [
+        "P1",
+        "P2"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S02_P1_P3",
+      "merged_aliases": [
+        "P1",
+        "P3"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S03_P1_P4",
+      "merged_aliases": [
+        "P1",
+        "P4"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S04_P1_P5",
+      "merged_aliases": [
+        "P1",
+        "P5"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S05_P1_P6",
+      "merged_aliases": [
+        "P1",
+        "P6"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S06_P2_P3",
+      "merged_aliases": [
+        "P2",
+        "P3"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S07_P2_P4",
+      "merged_aliases": [
+        "P2",
+        "P4"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S08_P2_P5",
+      "merged_aliases": [
+        "P2",
+        "P5"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S09_P2_P6",
+      "merged_aliases": [
+        "P2",
+        "P6"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S10_P3_P4",
+      "merged_aliases": [
+        "P3",
+        "P4"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S11_P3_P5",
+      "merged_aliases": [
+        "P3",
+        "P5"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S12_P3_P6",
+      "merged_aliases": [
+        "P3",
+        "P6"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S13_P4_P5",
+      "merged_aliases": [
+        "P4",
+        "P5"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S14_P4_P6",
+      "merged_aliases": [
+        "P4",
+        "P6"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    },
+    {
+      "scenario": "S15_P5_P6",
+      "merged_aliases": [
+        "P5",
+        "P6"
+      ],
+      "hypothetical_units": 5,
+      "status": "HYPOTHETICAL_SINGLE_PAIR_MERGE"
+    }
+  ],
+  "excluded_pairs": [],
+  "exclusion_basis": "No retrieved metadata proves any distinct pair impossible; retain all15 without outcome selection",
+  "assumptions": [
+    "exactly one pair among6aliases is same donor; other4distinct",
+    "eachalias contains one donor, no pooling/splitting",
+    "P6ESCC1/2existing grouping retained"
+  ],
+  "scope": "bounded sensitivity, never recovered true mapping",
+  "formulas": {
+    "RAW": "group sum normalized cell usage / total cohort usage",
+    "EQUAL": "group mean normalized cell usage / sum group means; merged mean cell-count weighted, NOT arithmetic mean of alias means",
+    "Tier": "historical RAW>=.8 in either primary cohort =>Tier2",
+    "EDSC": "frozenE1B RAW>=.8 OR EQUAL>=.8 in either primarycohort =>concentration caution"
+  },
+  "fixed_inputs": "GSE160269 unchanged;Q/P/matching/annotation and all other records unchanged"
+}

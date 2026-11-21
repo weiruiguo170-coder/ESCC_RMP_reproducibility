@@ -1,0 +1,41 @@
+{
+  "phase": "C",
+  "created_before_similarity_results": true,
+  "phase_b1_directory": "results/cnmf_formal",
+  "phase_c_directory": "results/cross_cohort_matching",
+  "primary_pair": ["GSE160269", "GSE188900"],
+  "supportive_cohort": "GSE196756",
+  "random_seed": 20260826,
+  "gene_label_permutations": 10000,
+  "gene_canonicalization": "strip whitespace and uppercase",
+  "gene_identifier_source": "map each formal matrix row from frozen input var_names to frozen input var['gene_symbol']; fall back to var_names only when gene_symbol is missing/blank; then canonicalize",
+  "duplicate_gene_rule": {
+    "gene_scores": "arithmetic mean within canonical symbol",
+    "gene_spectra": "sum within canonical symbol before shared-universe normalization",
+    "top_genes": "rank canonical symbols once using collapsed mean score"
+  },
+  "representations": {
+    "spearman": "full-gene refit score vectors restricted to pairwise shared canonical-gene universe",
+    "cosine": "nonnegative full-gene spectra restricted to shared universe, L1-normalized per program and then cosine/L2 dot product",
+    "top_gene_overlap": "top 50 collapsed score-ranked genes within the shared universe; top 100 saved as fixed sensitivity"
+  },
+  "composite_similarity": "equal-weight mean of max(Spearman rho,0), cosine similarity, and top50 overlap coefficient (overlap/50)",
+  "null": "for each replicate apply one random gene-identity permutation to all programs on the second side, preserving score/spectra distributions, program relationships, and gene-universe size",
+  "multiple_testing": "Benjamini-Hochberg separately within each pairwise analysis and metric family",
+  "metric_significance": {
+    "spearman": "permutation FDR < 0.05 and rho > 0",
+    "cosine": "permutation FDR < 0.05",
+    "top50": "hypergeometric FDR < 0.05",
+    "composite": "permutation FDR < 0.05"
+  },
+  "robust_primary_match": "reciprocal best hit by composite; composite permutation FDR <0.05; at least 2 of 3 independent metrics significant; no B1 TECHNICAL_FLAG on either member",
+  "tier_rule": {
+    "TIER_1_CORE_RECURRENT_PROGRAM": "robust primary match and neither member is STRONG_PATIENT_DOMINANCE",
+    "TIER_2_DOMINANCE_CAUTIOUS_RECURRENT_PROGRAM": "robust primary match and at least one member is STRONG_PATIENT_DOMINANCE"
+  },
+  "potential_split_merge_rule": "statistically supported non-RBH edge with >=2 significant metrics, composite FDR <0.05, no technical flag, and composite >=85% of the best composite for both endpoints; flag only, do not merge",
+  "supportive_candidate_representation": "on the three-way shared gene universe, average the two primary members' percentile score ranks; average their separately L1-normalized spectra and renormalize; rank top genes from the averaged score representation",
+  "supportive_match_rule": "candidate-to-GSE196756 reciprocal best by composite; composite permutation FDR <0.05; >=2 significant metrics; no B1 TECHNICAL_FLAG; patient dominance retained as evidence caution",
+  "rmp_id_rule": "assign RMP_C01... to robust primary RBHs in descending composite similarity; no biological naming",
+  "secondary_k_rule": "recommend targeted secondary-K sensitivity only if at least one POTENTIAL_SPLIT_MERGE edge is found; do not run it in Phase C"
+}

@@ -1,0 +1,124 @@
+{
+  "signature_version": "PhaseD_v1_2026-08-26",
+  "primary_cohorts": [
+    "GSE160269",
+    "GSE188900"
+  ],
+  "cnmf": {
+    "version": "1.7.1",
+    "pilot_fits_per_K": 20,
+    "formal_fits": 100,
+    "density_threshold": 0.5,
+    "local_neighborhood_fraction": 0.3,
+    "HVGs": 2000,
+    "max_iterations": 1000,
+    "selected_K": {
+      "GSE160269": 10,
+      "GSE188900": 8,
+      "GSE196756_auxiliary": 5
+    }
+  },
+  "matching": {
+    "formula": "(max(spearman_rho,0)+cosine_similarity+top50_overlap/50)/3",
+    "shared_gene_universe": 16143,
+    "permutations": 10000,
+    "tail": "upper",
+    "multiple_testing": "BH80"
+  },
+  "source_groups": {
+    "GSE160269": 60,
+    "GSE188900": 6,
+    "GSE188900_cells": 6801,
+    "GSE188900_labels": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "identity_scope": "analysis labels; no additional donor crosswalk established",
+    "scenario_count": 16,
+    "warning_fraction": 0.8
+  },
+  "Q": {
+    "reference_method": "RAW_RANK",
+    "reference_background": "HIST",
+    "matched_sets": 1000,
+    "patient_bootstraps": 2000,
+    "min_patient_cells": 20,
+    "max_cells": 500,
+    "min_detected_cells": 3,
+    "min_detected_fraction": 0.05,
+    "min_genes": 10,
+    "min_platform_member_fraction": 0.2,
+    "GSE199654_enrolled": 14,
+    "GSE199654_evaluable": 10,
+    "GSE203067_enrolled": 4,
+    "GSE203067_evaluable": 2,
+    "specifications_per_size": 9,
+    "PC2_u": 2,
+    "PC8_u": 8,
+    "PC_adjustment": "Holm7 by cohort,size,specification,claim"
+  },
+  "bulk": {
+    "GSE53622_pairs": 60,
+    "GSE53624_pairs": 119,
+    "total_pairs": 179,
+    "score": "mean within-profile gene percentile rank",
+    "context_family": 10,
+    "clinical_family": 21,
+    "clinical_size": "Top50",
+    "cox_family": "separate BH7 for univariable/adjusted",
+    "pathology_observations": 34,
+    "pathology_patients": 14,
+    "pathology_permutations": 10000,
+    "paired_state_bootstraps": 10000
+  },
+  "protein": {
+    "primary_pairs": 124,
+    "second_pairs": 57,
+    "primary_estimand": "mean raw paired log2 member difference per patient; dz=mean(delta)/sample_SD(delta)",
+    "patient_bootstraps": 5000,
+    "matched_sets": 10000,
+    "matched_tail": "two-sided displacement from matched-null median",
+    "coverage_gate": 0.6,
+    "DCI": "abs(sum(mean_gene_paired_delta))/sum(abs(mean_gene_paired_delta))",
+    "second_fixed80": "nonmissing in >=80% of 120 specimens; nonzero variance"
+  },
+  "PDO": {
+    "primary_n": 10,
+    "primary_endpoint": "author_AUC",
+    "null_assignments": 3628800,
+    "tail": "two-sided absolute Spearman",
+    "FDR": "BH7 separately per size",
+    "LOO": 10,
+    "L2O_C07": 45,
+    "WT_n": 8,
+    "day15_n": 12,
+    "day15_AUC_overlap": 9
+  },
+  "simulation": {
+    "mechanisms": 3,
+    "worlds_per_mechanism": 160,
+    "independent_worlds": 480,
+    "program_claim_units_per_size_strategy": 56,
+    "independent_external_validation": false
+  },
+  "seeds": {
+    "discovery_matching": 20260826,
+    "original_external_bulk_pathology": 20260827,
+    "original_proteomics": 20260828,
+    "original_PDO": 20260831,
+    "raw_paired_protein_sensitivity": 20260908,
+    "revision_RNA": 2026111402,
+    "EDSC": 2026111404,
+    "second_cohort_RNA_protein": 20260930,
+    "member_decomposition": 20261116,
+    "controlled_worlds": 2026111825,
+    "additional_simulated_patient_draws": 2026111834,
+    "real_patient_leave_one": 2026111835,
+    "world_cluster_bootstrap": 2026111836,
+    "margin_precision": 2026111899
+  }
+}

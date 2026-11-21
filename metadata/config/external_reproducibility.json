@@ -1,0 +1,99 @@
+{
+  "phase": "E",
+  "title": "Independent External Validation of Frozen Recurrent Malignant Programs",
+  "configuration_frozen_before_external_rmp_scoring": true,
+  "date": "2026-08-27",
+  "random_seed": 20260827,
+  "primary_external_cohorts": ["GSE199654", "GSE203067"],
+  "primary_rmps": ["RMP_C01", "RMP_C02", "RMP_C04", "RMP_C05", "RMP_C07"],
+  "exploratory_rmps": ["RMP_C03", "RMP_C06"],
+  "signature_lock": {
+    "primary": "Phase D frozen Top50",
+    "sensitivity_only": "Phase D frozen Top100",
+    "missing_gene_rule": "report and retain missing genes; never substitute or optimize genes",
+    "source_cohorts": ["GSE160269", "GSE188900"],
+    "GSE196756_role": "excluded from independent external validation and signature construction"
+  },
+  "cohort_inclusion": {
+    "GSE199654": {
+      "primary_cells": "author-provided epithelial cells from sampleType T only",
+      "patient_id": "patientID",
+      "sample_id": "sampleID",
+      "qc": "published epithelial re-QC thresholds reproducible from public counts: 200 <= detected genes < 6000 and mitochondrial UMI fraction < 5%; published DoubletScore <1 cannot be reproduced because per-cell DoubletScore is not public and is recorded as a limitation",
+      "malignant_definition": "tumor-origin invasive-cancer epithelial cells; no normal/dysplasia/stage comparison"
+    },
+    "GSE203067": {
+      "primary_cells": "primary-tumor libraries ESCC_T1 through ESCC_T4 only; lymph-node and adjacent-normal cells excluded from primary validation",
+      "patient_id": "patient number parsed from official barcode suffix map",
+      "sample_id": "official barcode suffix map; technical T4 library suffixes are aggregated to patient 4",
+      "qc": "published thresholds: UMI >=300, genes >=200, log10(genes)/log10(UMI)>0.8, mitochondrial UMI fraction <20%",
+      "epithelial_marker_panel": ["EPCAM", "SFN", "TP63", "KRT4", "KRT5", "KRT13", "KRT14", "KRT18", "KRT19"],
+      "immune_marker_panel": ["PTPRC", "CD3D", "CD3E", "NKG7", "MS4A1", "CD79A", "LST1", "TYROBP", "FCER1G"],
+      "fibroblast_marker_panel": ["COL1A1", "COL1A2", "COL3A1", "DCN", "LUM", "PDGFRA", "PDGFRB"],
+      "endothelial_marker_panel": ["PECAM1", "VWF", "EMCN", "KDR", "RAMP2", "CLDN5"],
+      "epithelial_rule": "after log1p(CP10K), epithelial panel mean must be the largest of four lineage-panel means; at least two epithelial-panel genes and at least one of EPCAM/SFN/TP63/KRT5/KRT14 must have nonzero UMI; PTPRC must have zero UMI",
+      "malignant_definition": "primary-tumor-origin epithelial cells selected by the frozen rule; original publication independently confirmed primary/LN malignant epithelium by large-scale CNV"
+    }
+  },
+  "cell_score": {
+    "method": "single-sample rank score (singscore-like), computed from raw UMI ranks",
+    "formula": "within each cell rank all platform genes ascending with average ties; normalized mean rank of covered signature genes = (mean_rank-(m+1)/2)/(N-m), bounded to [0,1]",
+    "missing_platform_genes": "excluded from m only after explicit coverage reporting",
+    "dropout": "zero counts retain their tied low rank and are not imputed",
+    "high_score_fraction": "fraction above the cohort-wide malignant-cell 75th percentile for the same RMP and signature size"
+  },
+  "patient_primary_summary": "median malignant-cell score",
+  "patient_sensitivity_summaries": ["mean", "upper_quartile", "fraction_high"],
+  "patient_pseudobulk": "sum raw UMI within patient, CP10K normalization, log1p; no cell is treated as an independent biological replicate",
+  "detectability": {
+    "matched_null": "1000 random gene sets of identical covered size, matching each frozen gene by malignant-cell detection-rate decile; sampling fixed by seed and independent of outcomes",
+    "patient_effect": "z score of observed patient-pseudobulk rank score relative to its matched random-set distribution",
+    "DETECTED": "coverage >=70%, median patient z >0, and >=70% evaluable patients have z>0",
+    "MIXED": "coverage >=60% and either median patient z >0 or >=50% patients have z>0",
+    "NOT_DETECTED": "coverage >=60% and neither DETECTED nor MIXED",
+    "NOT_EVALUABLE": "coverage <60% or fewer than 3 patients",
+    "formal_test": "two-sided Wilcoxon signed-rank of patient z against zero; BH FDR across seven RMPs within cohort and signature size; P/FDR are supplementary, not sole criteria",
+    "confidence_interval": "patient-level bootstrap median z, 2000 resamples"
+  },
+  "leave_one_patient_out": {
+    "unit": "patient",
+    "major_instability": "any LOPO median-z sign reversal relative to full median, or maximum absolute LOPO change greater than max(1.0, patient-z IQR), or largest patient contributes >=80% of summed positive patient z",
+    "cell_level_loocv": "prohibited"
+  },
+  "coherence": {
+    "rank_structure": "within each patient pseudobulk, Spearman correlation between covered signature-gene expression and negative frozen consensus rank",
+    "gene_gene": "median pairwise Spearman correlation among nonconstant covered signature genes across patient pseudobulks",
+    "COHERENT": "median rank-structure rho >=0.15, >50% patient rank-structure rho positive, and median gene-gene rho >0",
+    "MIXED": "at least one of median rank-structure rho or median gene-gene rho is positive",
+    "LOW": "neither condition",
+    "small_n": "coherence for cohorts with <5 patients is explicitly exploratory"
+  },
+  "signature_size_consistency": {
+    "metric": "Spearman correlation of Top50 versus Top100 patient median scores",
+    "ROBUST_TO_SIGNATURE_SIZE": "rho >=0.70",
+    "MIXED_SIZE_SENSITIVITY": "0 < rho <0.70",
+    "NOT_ROBUST_TO_SIGNATURE_SIZE": "rho <=0 or not estimable"
+  },
+  "distinctness": {
+    "fixed_pairs": [["RMP_C01", "RMP_C04"], ["RMP_C05", "RMP_C07"]],
+    "metrics": "Spearman score correlation at malignant-cell and patient-median levels plus frozen Top50 Jaccard",
+    "near_redundancy_review": "cell and patient rho >=0.90 and Top50 Jaccard >=0.80; report only, never merge"
+  },
+  "coverage_labels": {
+    "GOOD": ">=80%",
+    "ACCEPTABLE": "70-79%",
+    "CAUTION": "60-69%",
+    "LOW_COVERAGE": "<60%"
+  },
+  "cohort_level_interpretation": {
+    "STRONG_EXTERNAL_SUPPORT": "GOOD coverage, DETECTED, no major patient instability, COHERENT, and ROBUST_TO_SIGNATURE_SIZE",
+    "MODERATE_EXTERNAL_SUPPORT": "coverage >=70%, no major instability, and at least two of DETECTED, COHERENT, ROBUST_TO_SIGNATURE_SIZE",
+    "LIMITED_MIXED_SUPPORT": "evaluable but does not meet stronger rules",
+    "NOT_SUPPORTED_IN_THIS_COHORT": "coverage >=60%, NOT_DETECTED, and LOW coherence",
+    "NOT_EVALUABLE": "coverage <60% or fewer than 3 patients"
+  },
+  "overall_interpretation": "combine all preselected cohorts without dropping weak cohorts: STRONG requires both cohorts at least MODERATE and one STRONG; MODERATE requires both at least LIMITED and one at least MODERATE; NOT_SUPPORTED requires all evaluable cohorts NOT_SUPPORTED; otherwise LIMITED_MIXED; exploratory RMPs cannot be upgraded",
+  "multiple_testing": "Benjamini-Hochberg within each formal hypothesis family",
+  "software_threads": 4,
+  "prohibited": ["signature modification", "RMP membership change", "outcome optimization", "survival", "treatment response", "clinical outcome", "trajectory", "spatial", "bulk validation"]
+}

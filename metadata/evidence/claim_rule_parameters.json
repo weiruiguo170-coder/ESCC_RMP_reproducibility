@@ -1,0 +1,58 @@
+{
+  "version": "2026-11-18",
+  "timing": "revision-stage analysis",
+  "discovery": {
+    "method": "reciprocal best",
+    "match_BH80_lt": 0.05,
+    "min_supported_metrics": 2,
+    "requires_no_technical_flag": true,
+    "margin": "report both directions"
+  },
+  "contribution": {
+    "warn_at_or_above": 0.8,
+    "report_separately": [
+      "cell-weighted share",
+      "equal-unit share"
+    ],
+    "GSE188900_units": "source aliases"
+  },
+  "rna": {
+    "reference": [
+      "RAW_RANK",
+      "HIST"
+    ],
+    "unit": "evaluable patient",
+    "min_n": 5,
+    "min_n_over_N": 0.5,
+    "positive_mean": true,
+    "percentile_95_CI_lower_gt": 0,
+    "matched_BH7_lt": 0.05,
+    "positive_fraction": "report continuous",
+    "scope": "cohort, size, measurement"
+  },
+  "patient_counts": {
+    "missing_p": 1,
+    "targets": [
+      "2",
+      "floor(N/2)+1"
+    ],
+    "main": "Bonferroni partial conjunction then Holm across seven per target",
+    "sensitivity": "Fisher partial conjunction under independent valid patient tests",
+    "design_resolution": "7*(N-u+1)/(Bmax+1) <= 0.05",
+    "patient_p": "(1+number finite background >= target-1e-12)/(1+finite draws)"
+  },
+  "protein": {
+    "measured_contrast": "paired dz interval excludes zero and BH7 matched q<0.05",
+    "historical_coverage_qualification": 0.6,
+    "DCI": "abs(sum(gene mean differences))/sum(abs(gene mean differences))",
+    "scope": "measured members of paired mixed tissue"
+  },
+  "pdo": {
+    "endpoint": "author cisplatin AUC",
+    "n": 10,
+    "test": "exact two-sided permutation of Spearman rho",
+    "family": "all seven within size, endpoint and subset",
+    "scope": "exploratory association"
+  },
+  "global_rank": null
+}

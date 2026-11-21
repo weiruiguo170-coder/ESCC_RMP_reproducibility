@@ -1,0 +1,14 @@
+{
+  "GSE196756": "C_TUMOR_ASSOCIATED_EPITHELIUM_ONLY",
+  "operational_CNV_candidate_count": 625,
+  "validated_malignant_count": "NOT_ESTABLISHED; do not report zero as proof of no malignant cells",
+  "reason": "Unverified normal-reference identity/purity and strong depth/CNV associations; no author malignant labels or doublet calls; P4-dominated candidates, P2 n2",
+  "E1_independence": "INTERNAL_SENSITIVITY",
+  "independent_external_validation": "INDEPENDENT_VALIDATION_NOT_ESTABLISHED",
+  "frozen_held_out_conditions": "NOT_ESTABLISHED",
+  "global_classification_validity": "INSUFFICIENT_EVIDENCE",
+  "technical_internal_consistency": "PARTIALLY_SUPPORTED_WITH_ORDERING_EXCEPTIONS",
+  "not_changed": "7RMP/14 signatures, original cNMF, existing ABC rule and classes",
+  "new_CNV_fits": 0,
+  "new_cNMF_fits": 0
+}

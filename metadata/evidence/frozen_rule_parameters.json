@@ -1,0 +1,30 @@
+{
+  "version": "revision-specified-E1-v1",
+  "seed": 2026111404,
+  "classification_status": "Candidate operational rules; not historical algorithm, preregistration or independently validated classifier",
+  "models": {
+    "A": {"target": "Historical RNA-support maturity, not overall molecular reliability", "dominance_mode": "RAW"},
+    "B": {"target": "Risk-qualified external RNA coordination plus paired tissue-protein abundance breadth", "dominance_mode": "BOTH"},
+    "C": {"target": "Focal discussion eligibility; representative choice and global rank remain unidentified", "dominance_mode": "BOTH"}
+  },
+  "thresholds": {
+    "match_q": 0.05, "match_metrics": 2, "dominance": 0.8,
+    "old_min_n": 3, "old_positive": 0.7, "old_coherence_rho": 0.15, "old_size_rho": 0.7,
+    "rna_min_n": 5, "rna_patient_coverage": 0.5, "rna_positive": 0.7,
+    "evidence_q": 0.05, "protein_coverage": 0.6
+  },
+  "one_factor_sensitivity": {
+    "match_q": [0.01, 0.1], "evidence_q": [0.01, 0.1], "dominance": [0.7, 0.9],
+    "old_positive": [0.6, 0.8], "old_coherence_rho": [0.1, 0.2], "old_size_rho": [0.6, 0.8],
+    "rna_min_n": [8, 10], "rna_patient_coverage": [0.7, 0.8], "rna_positive": [0.6, 0.8],
+    "protein_coverage": [0.5, 0.7]
+  },
+  "ablation_dimensions": ["discovery", "patient_balance", "old_external", "coherence", "protein", "annotation", "PDO", "bulk_context", "clinical", "pathology"],
+  "patient_weight_modes": ["RAW", "EQUAL", "BOTH"],
+  "balanced_repetitions_reused": 300,
+  "QC_conditions": ["LOOSE", "STRICT", "STANDARD_REMOVE_DOUBLET_LIKE_OUTLIERS"],
+  "cohort_subsets": [["external_1"], ["external_2"]],
+  "forbidden_optimization_targets": ["historical final roles", "exactly three Primary programs", "any named program"],
+  "forbidden_upgrade_inputs": ["PDO", "bulk_context", "clinical", "pathology"],
+  "missing_state": "INDETERMINATE is outside the three substantive classes; never impute zero/negative/positive"
+}
