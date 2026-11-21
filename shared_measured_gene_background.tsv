@@ -1,0 +1,10 @@
+cohort	representation	raw_gene_rows	empty_removed	duplicate_rows_involved	canonical_unique_genes	duplicates_collapsed	identifier_source
+GSE160269	score	17012.0	0.0	0.0	17012	0.0	frozen_input_var_gene_symbol
+GSE160269	spectra	17012.0	0.0	0.0	17012	0.0	frozen_input_var_gene_symbol
+GSE188900	score	32738.0	0.0	194.0	32639	99.0	frozen_input_var_gene_symbol
+GSE188900	spectra	32738.0	0.0	194.0	32639	99.0	frozen_input_var_gene_symbol
+GSE196756	score	31851.0	0.0	30.0	31836	15.0	frozen_input_var_gene_symbol
+GSE196756	spectra	31851.0	0.0	30.0	31836	15.0	frozen_input_var_gene_symbol
+GSE160269_vs_GSE188900	pairwise_shared_gene_universe				16143		
+GSE160269_vs_GSE196756	pairwise_shared_gene_universe				14467		
+GSE188900_vs_GSE196756	pairwise_shared_gene_universe				19402		
